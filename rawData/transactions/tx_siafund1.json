@@ -1,0 +1,47 @@
+"facee6c970469912f44a436e5380b1ca3a99975d87670dba469e9d33e5ba413b": {
+      "siacoininputs": {
+        "004c2ab393a9d564decca631bd6b4e57055b9bfb7ec116db340a3df124d4e764": {
+          "parentid": "004c2ab393a9d564decca631bd6b4e57055b9bfb7ec116db340a3df124d4e764",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [
+              {
+                "algorithm": "ed25519",
+                "key": "Ztutp7lUGJp20JIzz6cGrX6oM4rFqS4K2zHddNAhlPg="
+              }
+            ],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": [],
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": {
+        "1796a52b5fc45f2632d202053226432b4715edf31796fb3d18050a3a5c7bc899": {
+          "parentid": "1796a52b5fc45f2632d202053226432b4715edf31796fb3d18050a3a5c7bc899",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [
+              {
+                "algorithm": "ed25519",
+                "key": "SSNBDX9nYhWUbuu6fFMd7yZ/wEaJExuFAhV5lWvYDP8="
+              }
+            ],
+            "signaturesrequired": 1
+          },
+          "claimunlockhash": "b4f1758b7ac780066508563d2f0a75faac229c4e1842fac04c1277752b9a198d1078da9ecef2"
+        }
+      },
+      "siafundoutputs": {
+        "ea7f29591c80534e35b2ec5e6e532dde6fc2ad8dfb9ce6447119b9b0f68658bd": {
+          "value": "1",
+          "unlockhash": "41f242ed4bb017680129d10dab1357cbe2d867e50039ef24234c20149cbf7c5bfe3de4a7c241",
+          "claimstart": "0"
+        }
+      },
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },

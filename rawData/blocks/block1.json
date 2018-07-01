@@ -1,0 +1,51 @@
+{
+  "id": "0000000018492dfe2a1b2da6ca3534a757796573f84f0eb0eb5f88d75cd10f9f",
+  "blockheight": 1,
+  "blockheader": {
+    "parentid": "25f6e3b9295a61f69fcb956aca9f0076234ecf2e02d399db5448b6e22f26e81c",
+    "nonce": [253, 253, 0, 0, 0, 0, 0, 100],
+    "timestamp": 1433626546,
+    "merkleroot": "a90b6c0811a6b6485ab8e53174ce820087179cb4e26a5768b79ff787e05b11b0"
+  },
+  "target": [0, 0, 0, 0, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "difficulty": "34359738367",
+  "totalcoins": "599999000000000000000000000000",
+  "estimatedhashrate": "0",
+  "minerpayouts": {
+    "aec28ed1c7fa8b960f7a3cbf337fd7ba7d320bb0b997929824124aef20c53e47": {
+      "value": "299999000000000000000000000000",
+      "unlockhash": "68a0607b15f21ce643bb47075e539b9e938d7a8e0870951a3c872a2d89ae05194ee3a0f18680"
+    }
+  },
+  "transactions": {
+    "bf27913ca6939b1aeafecacd925114b86bcd716768be27394ac6b114b8923f7c": {
+      "siacoininputs": [],
+      "siacoinoutputs": [],
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": ["Tm9uU2lhQ9ikb2Lc6jDRfLhhjPflTQ=="],
+      "transactionsignatures": null
+    }
+  },
+  "hash_data": {
+    "id": 109,
+    "hash": "0000000018492dfe2a1b2da6ca3534a757796573f84f0eb0eb5f88d75cd10f9f",
+    "type": "blockid",
+    "amount": null,
+    "spent": 0,
+    "miner_id": 2,
+    "hash_id": 109,
+    "height": 1,
+    "miner": {
+      "id": 2,
+      "name": "Siamining.com",
+      "url": null,
+      "created_at": "2018-01-20 21:05:45",
+      "updated_at": "2018-01-20 21:05:45"
+    }
+  }
+}

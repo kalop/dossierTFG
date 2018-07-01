@@ -1,0 +1,74 @@
+"2aaf1b367857fec09fb28b12deeb80ae03fac43edeead4e357cb23ccc0cc6f5b": {
+      "siacoininputs": {
+        "56626b52d7dd20e1d2fd180fb19699b0a94ffcecb5de2d1122f10e894b7da834": {
+          "parentid": "56626b52d7dd20e1d2fd180fb19699b0a94ffcecb5de2d1122f10e894b7da834",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [
+              {
+                "algorithm": "ed25519",
+                "key": "PczuvIdWWLW2jKw4XVPRM8NGckOVhDVrP+t5C/N6R2E="
+              }
+            ],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": [],
+      "filecontracts": [],
+      "filecontractrevisions": {
+        "80c45f95fa2ce3ce655f02452dd29f4702fa7210cf0178537c9e23c5ca3ccc6e": {
+          "parentid": "80c45f95fa2ce3ce655f02452dd29f4702fa7210cf0178537c9e23c5ca3ccc6e",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [
+              {
+                "algorithm": "ed25519",
+                "key": "07vp49ztALcam0ZMyYYZfuX+DwSWRSmtFkTsjh30xLU="
+              },
+              {
+                "algorithm": "ed25519",
+                "key": "fAE/vpqtXWS8PMTIVv91liTV5BhOzWpgO8QDusurArA="
+              }
+            ],
+            "signaturesrequired": 2
+          },
+          "newrevisionnumber": 12842,
+          "newfilesize": 53859057664,
+          "newfilemerkleroot": "324572ba0bcd6f0d32658438e54addfae42e2a798212c7ae89014501edeaff4f",
+          "newwindowstart": 161557,
+          "newwindowend": 161701,
+          "newvalidproofoutputs": {
+            "a37df6bd443e906d156746d56a7d3dca351d773f71553ccb93a54afb24d23edb": {
+              "value": "38185521923047726700568714",
+              "unlockhash": "44edb47eeb379982286553117c95810743079dca6d04564f4e47f7f0b5900c54b14051264d83"
+            },
+            "d94798677bb9d35ee6458d3f017eee496e1c56212f3a8ad9673651395d51d2ff": {
+              "value": "25378657063618937503681087",
+              "unlockhash": "ed73adbeea83300bb98b7c5b809ecebce67a92f794ecfcdc9c8e8cb35d8c32be35d1a577bd0a"
+            }
+          },
+          "newmissedproofoutputs": {
+            "1922658759de0c82fc866dabff000a127c9b8ed80fdd9aabf057f3ebcd406ec4": {
+              "value": "28508884786740243360715462",
+              "unlockhash": "44edb47eeb379982286553117c95810743079dca6d04564f4e47f7f0b5900c54b14051264d83"
+            },
+            "32101cd18dc8373044d4cc9a70e74cfd998887638a7f2ef4aa0ec913b88e2483": {
+              "value": "9676637136307483339853252",
+              "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69"
+            },
+            "eaa13d52b3bc48821300ac3f1b1d965a04ec8a2cc2579cd10f998e4067952142": {
+              "value": "25378657063618937503681087",
+              "unlockhash": "ed73adbeea83300bb98b7c5b809ecebce67a92f794ecfcdc9c8e8cb35d8c32be35d1a577bd0a"
+            }
+          },
+          "newunlockhash": "a179b34b1498873fd860691acc4abb8be6a44fc2e9fdf4ac5d394db5b8166dc0929b934cb825"
+        }
+      },
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },

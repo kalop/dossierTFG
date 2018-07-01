@@ -1,0 +1,12 @@
+"storageproofs": {
+        "eff3aa2de88bddb00cc253b4a51f34959bac6d5a2131164f34a8a7e6906fcfaa": {
+          "parentid": "eff3aa2de88bddb00cc253b4a51f34959bac6d5a2131164f34a8a7e6906fcfaa",
+          "segment": [15,205,24,93,169,...   ],
+          "hashset": [
+            "19ce32277baedbc5cd684b224ca69762ce3a8de89f61b049906c1a801c78390b",
+            "c197b62e5f194969520ae4926c0f8ac29232d79c7358203c303965f0827457c9",
+            ...
+          ]
+        }
+      },
+      "siafundinputs": [],

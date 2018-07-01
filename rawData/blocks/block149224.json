@@ -1,0 +1,3799 @@
+{
+  "id": "0000000000000000b7615d445279ebf34e72dc076233350ece584e0c02f194bb",
+  "blockheight": 149224,
+  "blockheader": {
+    "parentid": "0000000000000000c454018923f8d51374c0ed38d2fd323112b6707891df7c1b",
+    "nonce": [67, 158, 78, 109, 0, 0, 0, 0],
+    "timestamp": 1523122151,
+    "merkleroot": "242c52af2734b80beca972590845ab99e90a7b6abd0fecbb0e870575db69b125"
+  },
+  "target": [0, 0, 0, 0, 0, 0, 0, 1, 12, 228, 7, 145, 223, 164, 182, 146, 142, 177, 235, 89, 71, 36, 252, 62, 51, 48, 134, 152, 90, 91, 113, 132],
+  "difficulty": "17562399039767472532",
+  "totalcoins": "33633524300000000000000000000000000",
+  "estimatedhashrate": "30209031053020758",
+  "minerpayouts": {
+    "1cd988b23c373ad7e5457b11f20be797e780604377711c6512d905a135510105": {
+      "value": "150777297420000000000000000000",
+      "unlockhash": "dc0cb4f6cd8003ebf3d86cf0d9a5bbdf1e517c243238d26fd46709835a59c87338a380992d84"
+    }
+  },
+  "transactions": {
+    "0006392a12a416b138cee1ad9919fb572450894dcdf81f79e5b9dfe635c108a6": {
+      "siacoininputs": {
+        "e86f0c8d4423566bdd789021351000ba487826bdb2f749776761895361f502bc": {
+          "parentid": "e86f0c8d4423566bdd789021351000ba487826bdb2f749776761895361f502bc",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "hcCNCjhWcreWZq6Xs+byCpxiAT95ij3H6aX34QhyuvY="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": [],
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": {
+        "75ba0308cef4744e7e688725e6062dbc2e52e5dd7c4b2961a960f07f74a2639b": {
+          "parentid": "75ba0308cef4744e7e688725e6062dbc2e52e5dd7c4b2961a960f07f74a2639b",
+          "segment": [25, 88, 91, 22, 18, 118, 17, 252, 59, 138, 224, 222, 190, 247, 228, 175, 201, 116, 251, 210, 35, 150, 115, 152, 176, 39, 89, 71, 87, 52, 183, 231, 142, 147, 153, 62, 212, 153, 252, 97, 4, 82, 55, 137, 119, 155, 99, 44, 14, 108, 143, 193, 237, 63, 114, 55, 97, 241, 196, 145, 77, 195, 112, 174],
+          "hashset": ["a8908ebd0f9fc861926adb1efe19032b48adb4d19776e1e48fd80e1fe688905a", "20aebbd8adad1917a7e8d548b7a727c34b022100269c09cf51471546c7d398f6", "8a679b13c1a65ecf0f35103a20ba3db99612efde5f5aff175067b0bd3e83ae9d", "560e2adc273629218b3efec1085c0986a222258e52b0b6b65be165cb9ea35336", "3b2ad9fa89866a58d8a009b090f68c09bc094980f49884436ac1e7f86cc029e7", "e64414ef7e40bb50ffb0b3a5f69230cfba74d29f808572b1085162fefeacfe19", "60977c6ed0430f26413ff70c27cea7d47bbb47816acbec3599ce51bb828e8981", "a152dc4a0625a2e22f9dc5e46887adc798955dd9e6ac2d5539e5fb98de6f2cb7", "bb0c89186b62c7cd3e2573ececd17fd274384465a2cabba465fef9f1c4316bb2", "13bc460c010bc17af7c7a8dcb5cc526359628016bd10b785a48bf6ade557c977", "df64d76755c02e3c9622a4878dba7f44817b341a3b90198cc0c6915f83871ac8", "365e1bd8622298900e2b2efa1d602a1b31d1a8b5aa357ba35e2668c89b78b2dc", "3c9232dccd9d50734d25a5b61c9a7d84e6bf0f5de4aa551cc300ffd0e08476aa", "c6d0e4b250a96e41eef0180b9085e81326cee70968f1813aedbf26a1914a3024", "f1e6348a4890750282a90303ea1a58897c1e7b19a4aebe926bac0d83ddc5729d", "b1f7680e880a2dc1b23f9a470ec021fa45cb4bb3ea52b0c167ccc967f864f167", "8f0dbe7da3a85d2fb258b4aa121f11ec4f779ef806cb8fc2786c45508efbceab", "8555d017139eb85b1f9fd4bc8d88a30fe724400878e02d508db255b9c6ce34cc", "d9467d9cb5e11703060694f569b84cd74f4474806d86ca8ae0b0d279e4c96369", "3ebb2210d54a3aa6470559937423acba29f5bd7440928c622623d90f9f9e8e1a"]
+        }
+      },
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "067be70d3dd26e73f3abcc05281e918076d5b4e6c542e8e537f51a0162393e70": {
+      "siacoininputs": {
+        "067d06c29332641ae437184d7da1a39947c862ae0757361235c830fce3ae2e47": {
+          "parentid": "067d06c29332641ae437184d7da1a39947c862ae0757361235c830fce3ae2e47",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "K4wpvDqBJBqeo8PFZww58WyYLNK9zDofn+GxnFwoEes="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": [],
+      "filecontracts": [],
+      "filecontractrevisions": {
+        "1df2ea353127e73ca058f4b60f5231f0762f393c74afb9b87caf950d12ccfc68": {
+          "parentid": "1df2ea353127e73ca058f4b60f5231f0762f393c74afb9b87caf950d12ccfc68",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "qLj0XxJP1GkpjnbeI\/7kZwit5s3VP8awKEH7llALuLw="
+            }, {
+              "algorithm": "ed25519",
+              "key": "ErgH2SngsJKZKu2fOtsRw38FkXFndYgbVb5kwMVSdGs="
+            }],
+            "signaturesrequired": 2
+          },
+          "newrevisionnumber": 1,
+          "newfilesize": 0,
+          "newfilemerkleroot": "0000000000000000000000000000000000000000000000000000000000000000",
+          "newwindowstart": 149366,
+          "newwindowend": 149510,
+          "newvalidproofoutputs": {
+            "0b02c4d7123d3e867b4621ed16f533ad0e6e5c65a2bc2faecc54744dc05dd6a6": {
+              "value": "88129275006127765232549888",
+              "unlockhash": "481345a2f5357af21a042054d757c7d54e8bce60372b88125d9c2bec91fe9385287ec20c0ee4"
+            },
+            "b539f3321b550b4a44ebe8a604aae0110f9a477090ca176b2f747addd4a6e510": {
+              "value": "42566807022011535197637232",
+              "unlockhash": "c849d8e655bdeadb7be41afd8e4e0654f5858e449a6a83ae0eabee826a2debc1396b36da0a08"
+            }
+          },
+          "newmissedproofoutputs": {
+            "43b8684235b9f66971e3923c1da12aa1740905731d7f827acc3238b5b0bf4233": {
+              "value": "42566807022011535197637232",
+              "unlockhash": "c849d8e655bdeadb7be41afd8e4e0654f5858e449a6a83ae0eabee826a2debc1396b36da0a08"
+            },
+            "5c1baf840639d6d764a7556cbcbc565ece513aed14cf8c495a6660144228f84b": {
+              "value": "0",
+              "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69"
+            },
+            "b6b253aa6aaea791f94ff9196d1e46995b873a8a44a0262c9f094a62f38b93bf": {
+              "value": "88129275006127765232549888",
+              "unlockhash": "481345a2f5357af21a042054d757c7d54e8bce60372b88125d9c2bec91fe9385287ec20c0ee4"
+            }
+          },
+          "newunlockhash": "5fd0631eaa3df8459d72461167e6b77f9cc49ef1a488e22591ebf5d1efb110f764217e0fc657"
+        }
+      },
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "0cfae88bc23b8d0ee7fb36daa5c0ac3e7db4320e733de4e397f5013d62ee02e9": {
+      "siacoininputs": {
+        "d867f6291b1c5bd72985b207ff8b178611b55700008463d324cc341e16894955": {
+          "parentid": "d867f6291b1c5bd72985b207ff8b178611b55700008463d324cc341e16894955",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EtweUFMYzpsOHv6W0tyyvqWpI3Lwto6qBQVOheYHkKY="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "7c23730216faa1893c2b5102a6fe7a9bb0596a5e6183d5ea7e35a535e2285fed": {
+          "value": "13416000000000000000000000000",
+          "unlockhash": "6070152f060d5fa5260012dcdc5fc7c6543f5783601322b2d9d0b31687c4d43029a950a261f9"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "11eb2e3e2c281e4a11bc7e46391ab09155c51e849611d172deb134f759d042ae": {
+      "siacoininputs": {
+        "14c1cba254873b0757a0b1ba7f499d426c64be5e321ba573a93c1ef9b7f223fe": {
+          "parentid": "14c1cba254873b0757a0b1ba7f499d426c64be5e321ba573a93c1ef9b7f223fe",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "FU2g2MhCKcFHqZbr0iaiTEFdyM2Ejs4zOpggBnHWNr8="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "75f1523b11f2d43850af3fd0da9e520acba9ae6a280d262ee61959442adef834": {
+          "value": "34065364435149455320090000000",
+          "unlockhash": "39afe468f8892e7a87c40f43ae5e602b270084262eff50eadf4963af20b34e8a70ddb66f8990"
+        },
+        "e840d1fbd02e2773dfb9b325099713861d45003e44f5d598e9b85d2505b29a76": {
+          "value": "5165685070213373204217670241926",
+          "unlockhash": "a40a23a4775222eb70829c72c1fdeb4232f4a092faa5758bcc68c22a1458b7f0d016d20e248e"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "19acd9f08a352a3bb8e6bfa3c15acec5f13206e34a5ae98cea6a52be93a9f20f": {
+      "siacoininputs": {
+        "71857a8d9f32899d62dc9f19da4649ae2db0d6896b3728ca49258bed780fe818": {
+          "parentid": "71857a8d9f32899d62dc9f19da4649ae2db0d6896b3728ca49258bed780fe818",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "PB8f1PhmsHCkWP61W1hd9QLxqAJiL7TYQaDSWYJMh0g="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "b9bd71e254f757771e512947e929fcc6c9e598e6fd5b3d91aef69edd6b3bdd50": {
+          "value": "40230000000000000000000",
+          "unlockhash": "7390b6b39bd2972ebdb7257c56ea7ea9d21d5df30fabbbb1125bb896b06aeffcee1bcc9d7349"
+        },
+        "e06d3f5b794a38fb8f438a403f837186f617f327e7b4bab46b14670f40187b92": {
+          "value": "2211995986014738340450756522",
+          "unlockhash": "243f692d0762df5b7f1c6929c4d104cf3f00f8a5cd79541104cf11468b241b78c2555ad2b44c"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "1d985362364530f855d0911712f0a95eed8d433946a33e6b561b442ab47a1cae": {
+      "siacoininputs": {
+        "07182c588bde9a6745802879f1886ef0f7ac95e414edc3098424d84a481d7053": {
+          "parentid": "07182c588bde9a6745802879f1886ef0f7ac95e414edc3098424d84a481d7053",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "3XklP36NqKdxsmTXxvPtPNrIe8blfdqtbjlEo20\/+uA="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "0d53feb00058356d51ebdf149850e7f5e579cfe070f73cf21cd4df6553dd3843": {
+          "parentid": "0d53feb00058356d51ebdf149850e7f5e579cfe070f73cf21cd4df6553dd3843",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XxOB+LOi5TSjNbBz8ZsvsqKTr9wARCzxzsxyp5vzdvA="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "124f5f360eb00c88f9536f7fc77ab73ef576e8919118aa683f54739281e53a08": {
+          "parentid": "124f5f360eb00c88f9536f7fc77ab73ef576e8919118aa683f54739281e53a08",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "AU72J7HS1\/3V39R+PbkVC1gfoASNzyFqVVUDXYfhbSo="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "39ca97eecdd531aa35c0cb75d6b6274ffcc613cc60f55d6c4ceab78c90dc8a0b": {
+          "parentid": "39ca97eecdd531aa35c0cb75d6b6274ffcc613cc60f55d6c4ceab78c90dc8a0b",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "Sk4DO1BoC+UDE3NIMVeyrGr8LR+7YBe5shx4axGsJrs="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "407df9310e55e3b14e3263cc39c395bc1bacba19f0314e449a633abee678aaaa": {
+          "parentid": "407df9310e55e3b14e3263cc39c395bc1bacba19f0314e449a633abee678aaaa",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "f\/O3GTWpd\/rwiCrebYQD0lWsCOTrOVwyAY1hmbUoUSw="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "41e08efa5af7b3f49b18636506a47ef62c855b88400b8fd1331223114d57c3ff": {
+          "parentid": "41e08efa5af7b3f49b18636506a47ef62c855b88400b8fd1331223114d57c3ff",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "LGzqSJb8p\/VPiUBW\/PytA2QArDPZE8UXg7z6yRvhiR0="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "4e183807bdcd9d87cd4917abd49e47059fb65913b75ae2a855de85d75bba430e": {
+          "parentid": "4e183807bdcd9d87cd4917abd49e47059fb65913b75ae2a855de85d75bba430e",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "lN101SZvMufj9yJO8OP5i4MtdjrNpDOTsxleAN4uh70="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "5056484f78523d5f7793be1373103a4925b6e11d26c2e0423135b04b3b3c772b": {
+          "parentid": "5056484f78523d5f7793be1373103a4925b6e11d26c2e0423135b04b3b3c772b",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "Jw6Ptk1lbjHbHRCQRSn4EvL57lS64zhuUpkJLrtOo38="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "534cd7f46a78cac7ede5106b333121411ead4c95d61f13904b747ba751d26bbc": {
+          "parentid": "534cd7f46a78cac7ede5106b333121411ead4c95d61f13904b747ba751d26bbc",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "KxaB4esfIbB8dZkszo3UMjSyAU\/qoKSdHzjrUXy8zkw="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "546cd6edaf5342ef6f9835e8fcfe92db0660039d7599153be53cd981c84fb12c": {
+          "parentid": "546cd6edaf5342ef6f9835e8fcfe92db0660039d7599153be53cd981c84fb12c",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "rNeJGr8xVrXW\/3vjSSh0hSqdTShf0SQhTiYrA3YJ55s="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "5ae558c0b95e71a16301a6bfae92ffcdf6d1f41f891aa29b717809050eef655d": {
+          "parentid": "5ae558c0b95e71a16301a6bfae92ffcdf6d1f41f891aa29b717809050eef655d",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "0ge6szIcPkGnSobQNKGAGXlWw8u6o\/ULQUbqdSVOqyc="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "5b4192f35e7f59a3607185dc48a68d4f17988b558d75bdad651c353d3d3f3acc": {
+          "parentid": "5b4192f35e7f59a3607185dc48a68d4f17988b558d75bdad651c353d3d3f3acc",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "+h\/Nh\/\/eGazBa0v9Ftk6uSDAjgJlAmpK+Lc5NZCIyLk="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "7b262c6e0809606cfa6d8861969f101d4a47328b3965951a05ffbfe5ffb2b1a1": {
+          "parentid": "7b262c6e0809606cfa6d8861969f101d4a47328b3965951a05ffbfe5ffb2b1a1",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "j4EYaHcapqqylxeSM+I3KY9JIRVK6kipsAjSBjouNbo="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "822ed9ab8b5a665a98f73e4d61a19ef3f194f7c030d8f024cd00c0d3d2b170fe": {
+          "parentid": "822ed9ab8b5a665a98f73e4d61a19ef3f194f7c030d8f024cd00c0d3d2b170fe",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "le2x3pMQqPJxoBfB0QubqsJHTA4gAUZif+\/Sgzj\/A6s="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "8aae6984568a95e99a5b57ca8fb74704411e5177538822f938339af75dcedaa3": {
+          "parentid": "8aae6984568a95e99a5b57ca8fb74704411e5177538822f938339af75dcedaa3",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "gBKXUh5GaVQmp4vJrf7pi7xvB9QDqob5\/ykMr9UOEos="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "928611e6329fe3892ea1d82ad9f06997bea9ba207ed3df33c16d28730deec822": {
+          "parentid": "928611e6329fe3892ea1d82ad9f06997bea9ba207ed3df33c16d28730deec822",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "Hwp87HKPP7UxyOzCVHKo\/QUE+SnW8NsU1LJvQicHJ+g="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "9881642dbf8398f4641a8706c1ddf4cd8c61b288f2c509809f1e3e625baac088": {
+          "parentid": "9881642dbf8398f4641a8706c1ddf4cd8c61b288f2c509809f1e3e625baac088",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "cq8MU0OoSyXS3X9nfRwvHHuOwpvav5d9gBnks2hImWk="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "aba6e1f65443a4319fdb14a22f90eef6701da0eb4070ecbc358a94bc818d1bd5": {
+          "parentid": "aba6e1f65443a4319fdb14a22f90eef6701da0eb4070ecbc358a94bc818d1bd5",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "a\/onUAfbFxmETi8LfDmH0+Ux7UZUlYib6vdxriBl2Pk="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "ad742d103a90b3cbd2dcb9c8580238fe7f80d841b03ccafbb7dc68712ee8fb26": {
+          "parentid": "ad742d103a90b3cbd2dcb9c8580238fe7f80d841b03ccafbb7dc68712ee8fb26",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "SOF1Fnw\/Y3Kc3SLjYmtx4TzzBcxQh8Eu5X+0MMxvI94="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "b2871058857ab346bf02460553f21565c00db74be808fdc90d825d060e177ab5": {
+          "parentid": "b2871058857ab346bf02460553f21565c00db74be808fdc90d825d060e177ab5",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "aht0aOoyhlDAFh0c9iQXWG+KEzY+3DQFXjzLjAKVn1g="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "c3756cf4dffc07301fbfbc83aa35370e903f651b927a2ebed497d9ab5df86fdc": {
+          "parentid": "c3756cf4dffc07301fbfbc83aa35370e903f651b927a2ebed497d9ab5df86fdc",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "ddOgXt6zmqTFko520p\/YIG31jivBS\/NcWdajdLtIz5s="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "c418bd07a4a729ee7cc339b5fea5f06051f6d825fa508b31540961fa46980d17": {
+          "parentid": "c418bd07a4a729ee7cc339b5fea5f06051f6d825fa508b31540961fa46980d17",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "s8Hl5FvFlRTotf8RuNnR9FzprY0hKYFsYZARlyXC5K4="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "c533b718c11a08d8108b7067887461b2a5a59ed805de31f5f4bd930e1862938c": {
+          "parentid": "c533b718c11a08d8108b7067887461b2a5a59ed805de31f5f4bd930e1862938c",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "y+P+NkE3VPS6H8Xl9XaGWzFOWVWMTW3TPkI0L8ke3pE="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "cbe537ef22180a740460a8dbd7b0ee6852bb30a69931fa3910823f8b0bf6a4c5": {
+          "parentid": "cbe537ef22180a740460a8dbd7b0ee6852bb30a69931fa3910823f8b0bf6a4c5",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "pp74JSuRW3EgGsS5lvHyo0bBfFzuILoMQD5ofma9aQ8="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "d1a0d196177af91b9f6704d17e1f89e130bca495ba38638711088a949239abf5": {
+          "parentid": "d1a0d196177af91b9f6704d17e1f89e130bca495ba38638711088a949239abf5",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "V1dXSiNudUXSaeMUNbVx26eT\/2+a4JiNBAdtnDG2i1I="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "e3fe046013fd3684cca3a326716637bb6ebf1c3d361cd56ebb56ba94f75ae557": {
+          "parentid": "e3fe046013fd3684cca3a326716637bb6ebf1c3d361cd56ebb56ba94f75ae557",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "VR3wcX8F2jRETba7Sdh3uMF30by8kpcBmylD+S+r+Os="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "e4d1b91643431c1254ee98d71f62aeeb6970b0acbc642f0e24e67f203e6a31dd": {
+          "parentid": "e4d1b91643431c1254ee98d71f62aeeb6970b0acbc642f0e24e67f203e6a31dd",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "OsJtHZfF1CNIg5MrK1esJDiVfBIJG\/lMOnvufz6A0HE="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "e72152650e8167ab1cf9decfd00ea4dab7a36f065374508cac5158a8f045fb55": {
+          "parentid": "e72152650e8167ab1cf9decfd00ea4dab7a36f065374508cac5158a8f045fb55",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "\/zu7S7\/RfJYuKorjj97KT2Wqm7WWoUfjVL3DxpJogUc="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "ee7db825f2a100b1b9adfed4151de2622d018096f550f8aecddca79876ba463f": {
+          "parentid": "ee7db825f2a100b1b9adfed4151de2622d018096f550f8aecddca79876ba463f",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "1ChwnLctN6Fl5HYwV+1aT2KwqEr7udq3a80Xbwngq\/c="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "efc60b0ade64c7b34fe022362c366ca22d7cf784313cf145112750b4b5af71be": {
+          "parentid": "efc60b0ade64c7b34fe022362c366ca22d7cf784313cf145112750b4b5af71be",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "PExgd22N29G8wAkcD3FPNj4brJFx76me\/\/Lr2\/pOOIA="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "f0fc9a671fbf93e7ea25ae30736f63e35ae87f537d2d8f0ccf502268568d4cfc": {
+          "parentid": "f0fc9a671fbf93e7ea25ae30736f63e35ae87f537d2d8f0ccf502268568d4cfc",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "2uvuZS7HrSRmGYknFeJDA\/m3Suff0\/URl2IVfi8vlWM="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "f44cda48323c34d809b51f8bf4b71c762798dedb27e399e9a0acb22836f01420": {
+          "parentid": "f44cda48323c34d809b51f8bf4b71c762798dedb27e399e9a0acb22836f01420",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "iX+GuuOkeL3PTWOLi9C8yJ19e0\/24sxnODFiZTS12Dg="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "fad6722bb8d7c06365bb9e3a0d10fbd9771aabced3b51c5501cfe7dcd4fe2fc3": {
+          "parentid": "fad6722bb8d7c06365bb9e3a0d10fbd9771aabced3b51c5501cfe7dcd4fe2fc3",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "5RatA149I4cC9uhkCd1\/zPzEOTshekWCnnuEh0AnmmY="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "fd0acd42846fea10664d81e314646569127ebc7f981f798fb1a187bea075a35c": {
+          "parentid": "fd0acd42846fea10664d81e314646569127ebc7f981f798fb1a187bea075a35c",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "RfLCgNoF9rVIxdundEq9mn6h5vIdbqZt3CeCy5EFl\/o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "fe53e1b7b6a6758a6b30a8b0766ecece548d4296cec7b52a5bafe260aec38cb0": {
+          "parentid": "fe53e1b7b6a6758a6b30a8b0766ecece548d4296cec7b52a5bafe260aec38cb0",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "SMMq2zdwsfvBvLmW1xZwSdQCRiIS1hqglz2eQp4tv1w="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "ded4c8e5df3041c2102b9ae3eb4c4b2e2c7f612d6cfc8d7436b6f8b42aadee1b": {
+          "value": "22941798334369272567660000000",
+          "unlockhash": "d7a60198a79a1b08e537c292ce5f38e3228c96e0df33170d865b303360452f41eabe43c1f26d"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "25ac79340cde569ac0dda4991453d1b611c89cfa1874715286f807b93112a883": {
+      "siacoininputs": {
+        "735e479ce8137971c56028ae9e017e35c4d32ac4e2d0a3986df08c587c2d7864": {
+          "parentid": "735e479ce8137971c56028ae9e017e35c4d32ac4e2d0a3986df08c587c2d7864",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "DP+ITt7CfVoYDFLjibiz+M9jaJTT5v7Db2llZfmec3k="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "8b6b0b27ebf9c2a73d02d7d33ddc3ba2c565c2b9100d12a8f3130a84fc777db7": {
+          "value": "18000000000000000000000",
+          "unlockhash": "44daabc412382d074829608cfcf6519a80fe4c8e0cf600a6f454e7c0e226b6022af8a33928df"
+        },
+        "9660c490238eab1c88ba5c9971edfb5684e2a487a1d1fdb8d9553b7154db2901": {
+          "value": "14882000000000000000000000",
+          "unlockhash": "8d33c3dd3343c6c87bdbb4475c1a95c583e704762d70ffe493143f0ba8ccbcf7b2e9b9c0e7f9"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "2f3f7db77c4672f2206df741f94b594190d4c2d37ed4b26367f02118341afdd6": {
+      "siacoininputs": {
+        "0eec7667a77f1fea067b5eabe1f48ab79a1d1bee8f366aa3bdc1618dacc3c07b": {
+          "parentid": "0eec7667a77f1fea067b5eabe1f48ab79a1d1bee8f366aa3bdc1618dacc3c07b",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "Z5SzZexdvDiHbqwdo9mP7d1ynAztfjdGmsotp3cRJs0="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "5bae6ac44c4fe592ae74258de686851219d90aedc034603587c7de63bf807646": {
+          "value": "66214063600000000000000000000",
+          "unlockhash": "c07a50adcede614ad5efa91c8f6ab3878ab88be48a4526e807c0c022c5d0a9e294cfd1d56b79"
+        },
+        "625b4c41d1d0bf100a178506751ebe40a13adfb5d9c445bf1ff529e0bfe56617": {
+          "value": "562832669049037985135599514588641",
+          "unlockhash": "552a2bbcbc23e47885e2aa3d4aa35310884292dc2954efe89ad690278a3a6ded149bdb7d0582"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "3593496dc8cf085ed22840dad301089cfbf92522441d9905a22e911c2142e16b": {
+      "siacoininputs": {
+        "0d139afaa51440854125f5adff0752e3dd78d2739e8878e5ad7870ab7838876b": {
+          "parentid": "0d139afaa51440854125f5adff0752e3dd78d2739e8878e5ad7870ab7838876b",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "xuw3\/Sl1e6Dqmt3AhZyq6xC4TRWfX6Bdafsg8mmNx8w="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "de5f6a4f59ce262e6993cd1ac5675b894d5f0d585e17319450b4ea63c15fa3f0": {
+          "parentid": "de5f6a4f59ce262e6993cd1ac5675b894d5f0d585e17319450b4ea63c15fa3f0",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "FX9sn9EcYL9tFNZ8gPs9nEGpQ0qIJcMOn3gcIKcRNjQ="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": [],
+      "filecontracts": {
+        "6b062338306097421086e201733bbb499b576fbbafaa53648f4fc98543a920f0": {
+          "filesize": 0,
+          "filemerkleroot": "0000000000000000000000000000000000000000000000000000000000000000",
+          "windowstart": 162000,
+          "windowend": 162144,
+          "payout": "4142054075626328304849732",
+          "validproofoutputs": {
+            "436424cc88b3a548590044c672b2bb7a970e5ab9687ed10f46cc7bf6855df546": {
+              "value": "78588270323376134440000",
+              "unlockhash": "6be8bba0a7ffc367b9bed838053990b2c78ee1ff9f25d301397f63222a8cd96a8919d9edd8cd"
+            },
+            "fb07bafb3a6070a1c7c285d54568333b8fe9fc209399d13d484b921729cad044": {
+              "value": "3901925696353525366529732",
+              "unlockhash": "551e91e78be89e93c78f2933566830678ac69f3995362309cffac7591f0c680bc0bb01dc982e"
+            }
+          },
+          "missedproofoutputs": {
+            "082e67a17837a23bdf864af26bec64f7cf3331ff603c581c1fcfb1725a52adbd": {
+              "value": "3901925696353525366529732",
+              "unlockhash": "551e91e78be89e93c78f2933566830678ac69f3995362309cffac7591f0c680bc0bb01dc982e"
+            },
+            "3f99161750b3776f50cacc5bee4aabcec7b7c824149010ba5d333170c4f041c0": {
+              "value": "0",
+              "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69"
+            },
+            "6c970b1e3b53bf6420b6917c686f88e7c330602324455d7c1257e22b96c4a5bc": {
+              "value": "78588270323376134440000",
+              "unlockhash": "6be8bba0a7ffc367b9bed838053990b2c78ee1ff9f25d301397f63222a8cd96a8919d9edd8cd"
+            }
+          },
+          "unlockhash": "b5c9a261f674cc01f57ba21862cf8a396b72172de133abb904b5bec6e22b0bfb3152c487a109",
+          "revisionnumber": 0
+        }
+      },
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "3deb89468c4c48535beac77690db1006f9dda4d0358eb270c25807895acb046e": {
+      "siacoininputs": {
+        "052e393978e8467b64688d1457de32b647bb289e4d0fc630b4925d25a59e6242": {
+          "parentid": "052e393978e8467b64688d1457de32b647bb289e4d0fc630b4925d25a59e6242",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "09e04d334eb1a1cf1368788057e7b1a02acde1d3064c44d3d79ccd4e03fd8908": {
+          "parentid": "09e04d334eb1a1cf1368788057e7b1a02acde1d3064c44d3d79ccd4e03fd8908",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "0e88d35e2163295df8816eb3d61697fc5085559a690a4a3ec893290e2bc3bebe": {
+          "parentid": "0e88d35e2163295df8816eb3d61697fc5085559a690a4a3ec893290e2bc3bebe",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "16fc4794bcd3dbb2275a4247da2f7b85b6445b670663cead0a479c13e8afc5cc": {
+          "parentid": "16fc4794bcd3dbb2275a4247da2f7b85b6445b670663cead0a479c13e8afc5cc",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "1d00a00f667d0a5ce08ae03a434e1f68d8a01523036a0fc2026505f6f4c9aaad": {
+          "parentid": "1d00a00f667d0a5ce08ae03a434e1f68d8a01523036a0fc2026505f6f4c9aaad",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "1f095dd3efc4f81112da49e2e31c1c5e30930e344f7f2f574a403e93d0be2191": {
+          "parentid": "1f095dd3efc4f81112da49e2e31c1c5e30930e344f7f2f574a403e93d0be2191",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "2286658d391df1ea91af0ad206ad7a1257569439c8e17d90c61f989e25cbff96": {
+          "parentid": "2286658d391df1ea91af0ad206ad7a1257569439c8e17d90c61f989e25cbff96",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "23bb24212001fb0e061b5289ca93d6a59026c108767ffe0906d973daa131dd04": {
+          "parentid": "23bb24212001fb0e061b5289ca93d6a59026c108767ffe0906d973daa131dd04",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "313d979f8a3e8e8bf542625ffd65059a7e8afa87c47af3e95789549cae842b08": {
+          "parentid": "313d979f8a3e8e8bf542625ffd65059a7e8afa87c47af3e95789549cae842b08",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "407217ba5e956f452113d72c0aa9563e84dd8ec8f5984b7d1e7cd329eee9cb3e": {
+          "parentid": "407217ba5e956f452113d72c0aa9563e84dd8ec8f5984b7d1e7cd329eee9cb3e",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "446ef620796b3e241d2381cc622afa94b8a6b25a68dd1b8b009bf4dcd2124127": {
+          "parentid": "446ef620796b3e241d2381cc622afa94b8a6b25a68dd1b8b009bf4dcd2124127",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "4ee9db4eb218c9da7c119dbcb1182471f9243d3c13fc7a893481e2936615640d": {
+          "parentid": "4ee9db4eb218c9da7c119dbcb1182471f9243d3c13fc7a893481e2936615640d",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "568b8aea348009f5eabb0664c6d4bc266c2c62bd71ea4601bad125ec7200d1a1": {
+          "parentid": "568b8aea348009f5eabb0664c6d4bc266c2c62bd71ea4601bad125ec7200d1a1",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "61bd3b60fe398f8a64080105b2d26e7ca45170026742cb69fa1b65997c276e53": {
+          "parentid": "61bd3b60fe398f8a64080105b2d26e7ca45170026742cb69fa1b65997c276e53",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "68c50c2a32e7bfb852f620a04dd520a35c752c967b991046cd5754f9eba279f2": {
+          "parentid": "68c50c2a32e7bfb852f620a04dd520a35c752c967b991046cd5754f9eba279f2",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "6dd9cb361895b21c3b31685e117140c394244e4c80ea8a03ae8933941f0f4378": {
+          "parentid": "6dd9cb361895b21c3b31685e117140c394244e4c80ea8a03ae8933941f0f4378",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "6f70a1b30efb975c43578d358a1254ebacff0a59f0ab1adcfb35ba040c8578cc": {
+          "parentid": "6f70a1b30efb975c43578d358a1254ebacff0a59f0ab1adcfb35ba040c8578cc",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "74b8e4af1d43b796f971686fc4d92f4f84d7fec08e9cd336851f93d1e8cffc43": {
+          "parentid": "74b8e4af1d43b796f971686fc4d92f4f84d7fec08e9cd336851f93d1e8cffc43",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "7a9080a79e5966b4140e70104eb14dc7bd8458cf252e9c8ec24b12d343178635": {
+          "parentid": "7a9080a79e5966b4140e70104eb14dc7bd8458cf252e9c8ec24b12d343178635",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "7c43e73d0511139ac21dc69d9b6ae6e9a3cb5c7cc1700a29fd8831fe6ba964bb": {
+          "parentid": "7c43e73d0511139ac21dc69d9b6ae6e9a3cb5c7cc1700a29fd8831fe6ba964bb",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "8b4419df4abf70520b436fa90faeea21f7f55f870fd160f0a97dbd530c20bc5e": {
+          "parentid": "8b4419df4abf70520b436fa90faeea21f7f55f870fd160f0a97dbd530c20bc5e",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "8b89897044d9ae0355a2e1df19b1863947f14af52e65200bfd3d9b584f39d3db": {
+          "parentid": "8b89897044d9ae0355a2e1df19b1863947f14af52e65200bfd3d9b584f39d3db",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "9fa2495ffb13412e5b17750831f1c5eb5920cff18e163bd90990a03f7f6eacc4": {
+          "parentid": "9fa2495ffb13412e5b17750831f1c5eb5920cff18e163bd90990a03f7f6eacc4",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "a23140a87534dee935ddc5c9a57718850c2297f99f2804a38c8a8fe0b9e24d57": {
+          "parentid": "a23140a87534dee935ddc5c9a57718850c2297f99f2804a38c8a8fe0b9e24d57",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "aa8471ef01e76bc38a57bf8ee34950a88156ceb3a94dc03ce8a49e7c92bbfdf9": {
+          "parentid": "aa8471ef01e76bc38a57bf8ee34950a88156ceb3a94dc03ce8a49e7c92bbfdf9",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "b8e95216d2c104a8148a41201c5aa9525bf5bfb715c95dd34596ab27320bb49b": {
+          "parentid": "b8e95216d2c104a8148a41201c5aa9525bf5bfb715c95dd34596ab27320bb49b",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "bbe743892de555343ef46dd277465d12e928049bf5057a165bd1fc743492c168": {
+          "parentid": "bbe743892de555343ef46dd277465d12e928049bf5057a165bd1fc743492c168",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "bd76db0491442b3051eec162313adca9394c0a2fa2c8a3816f3d0e0c2a889885": {
+          "parentid": "bd76db0491442b3051eec162313adca9394c0a2fa2c8a3816f3d0e0c2a889885",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "c0336219c18f439bcfe63127263a9ae3e46e2e10af41928548c2b4abf06d6a8b": {
+          "parentid": "c0336219c18f439bcfe63127263a9ae3e46e2e10af41928548c2b4abf06d6a8b",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "d09a6ac98d5e0b83341882e5c4929ca5192aeb27a936811b1f32bf430d98b09c": {
+          "parentid": "d09a6ac98d5e0b83341882e5c4929ca5192aeb27a936811b1f32bf430d98b09c",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "d1d36ca2f67fb5f3338c1f5b29ab60eec4517486b6d338a458dae3eae80cddea": {
+          "parentid": "d1d36ca2f67fb5f3338c1f5b29ab60eec4517486b6d338a458dae3eae80cddea",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "d40f06f3617be7420dc406efd3e03fa28a08430a82f1731b4ae8b669bbd070f7": {
+          "parentid": "d40f06f3617be7420dc406efd3e03fa28a08430a82f1731b4ae8b669bbd070f7",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "d66434e3eaebbd42605d48d9877ac03c8532a5b2099279def1d8209290264c4b": {
+          "parentid": "d66434e3eaebbd42605d48d9877ac03c8532a5b2099279def1d8209290264c4b",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "db27967a67459b62f4af11490c089117ed2e19a0d2f9552f860239eca271b6d3": {
+          "parentid": "db27967a67459b62f4af11490c089117ed2e19a0d2f9552f860239eca271b6d3",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "dc3f2abfefa5c5e0f6ec8a7bf8411659342b79d9e28f1c2e95c998e95cb549e6": {
+          "parentid": "dc3f2abfefa5c5e0f6ec8a7bf8411659342b79d9e28f1c2e95c998e95cb549e6",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "98AHg1j2rB1L1W2vcq6zOU0z4uXKOa8pXCs2r7H0M1o="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "e8e556df9eb3356182f13930c3e48dd699a3cb3c9752e9137a779ee81c8f8054": {
+          "value": "35155593239300330378320000000",
+          "unlockhash": "95a082210037cc44b2fd2d7ddae5b6eec92c36f7cadf3e0ca3c336ba9efce28a146b593d84f6"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "3f1ba73dad1216ae2ed4e792b039bce696a636c1b08c5ed5968efd0138bd7102": {
+      "siacoininputs": {
+        "d2086f2db62251111ba755500392dd0257987ed50d968a4169e4cd37f657bae2": {
+          "parentid": "d2086f2db62251111ba755500392dd0257987ed50d968a4169e4cd37f657bae2",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "jD+9tukE531oP+l73FykpObA9evakwiUHjMMCxeAKEc="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": [],
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": {
+        "f7c36795ba2d54900f214e72c0239f85020e18aff0200d95e291172d8eba27d6": {
+          "parentid": "f7c36795ba2d54900f214e72c0239f85020e18aff0200d95e291172d8eba27d6",
+          "segment": [145, 235, 228, 138, 27, 10, 150, 116, 88, 22, 63, 26, 231, 189, 227, 7, 102, 3, 213, 4, 75, 205, 196, 69, 108, 199, 117, 105, 218, 7, 227, 198, 182, 245, 27, 204, 230, 66, 152, 149, 84, 51, 142, 196, 233, 192, 174, 203, 43, 253, 143, 12, 176, 244, 15, 141, 56, 52, 180, 193, 101, 55, 63, 174],
+          "hashset": ["2d8f3f7c92bb812ef530c5befcd3748c6ff6536f760fc1d47854d4c97deb56ee", "dd592684daeebab610aaa2e243e03e812f873747f4dc7d314c0851ec898239b4", "8750c24261b2f898393fe2e814fea154146a4bb7b1b7d7bb98b2525750e16d9a", "e40dfbffff85b28bb82a07d2a45683bf6daea83d466841bc09f272ad2e4fa151", "2ae80248949799d9ed2c11ab2139f7febef800bb08530962edba203897710548", "93eaaf09c1287e726d8d8a73d5ee3ddfa7f090fc43c49b2c6e7b3f8246309d3e", "50512c6ce8bb8914a1c32afc62f18aac34b23786922d62fc3356b268c834e821", "76bd7acf6727355f772167c600a2dcbdc7cbc7eebab9164d08c004ea9976cd03", "4a2d5517f8a33a0f5fcb3e75c14c3e3bcd0a888177a2264cf2246e220b9b122f", "ee2583213564f66a5499166d8c703697ca523dcfb65804fabddaab5ac7c85cf7", "a1d42ba0b7504af4a08fb3d7f55f4d4edaf1ad7337b9fd622a00dda3624069e0", "bdd230b66f2fed7007f64ff09423860fa42b2931d430a3e56b3a1247172a8040", "8970144c97dfa320a28271eefdfbf0260598a895786e063bb492a2ef0da5419e", "b20e3aa0b5b516ae21cb40d1bb59c6723438a514986a60d8435595f842c8f47b", "ed68bd465741cf83baba0151c77bde463dd7cf3a26649564fd2e13713651a9a6", "c8217507df5d3ee1ff299023bf85c3ed0bc79b52e292f8b4be9274dcfdc03289", "ab34b527b7907924f8f1d88e5593c296e828254d9e2b1663fe5aec6e3bc44136", "0c8c7931728cc682256a1d0dc5285d5e39cb95c42933d4576e636a06cfe87b72", "4558f25abf30c60271bd1bb3fae15bf3e63ed1685f72e14aa0d7f0f84c8432f3", "d85a38f2d577d1adcf5b0f2d0eb11f6abd4e8f4ba744a2e78023fe810c74fe42", "5545ea963136031c55f1834e6e158fa66877bab598be83bccf313235591697b0", "fe232a82c245346989de9c864d7027c8bf7dfadb9851ccdeeb4b262c5795ecad", "ff30ffefee60079cd6e73cacb52226d2217d7fc620da3093ce95c9bd616acb55"]
+        }
+      },
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "453632abdd7b882169044da5800dfbfe78414da9869f1f04e66de3071cb7e73b": {
+      "siacoininputs": {
+        "0adca5df116901a1d1a8c886c6268707c2e9aa2043d17a511353254815d2fad2": {
+          "parentid": "0adca5df116901a1d1a8c886c6268707c2e9aa2043d17a511353254815d2fad2",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "WZwzxj9URyvnsxkR3JlHQqhise2qeWOkzuvF7GhMKvs="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "0b3fc1e5a8767a0ec5f4605db229301984b482893436c2f5041ac749477a8cf7": {
+          "parentid": "0b3fc1e5a8767a0ec5f4605db229301984b482893436c2f5041ac749477a8cf7",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "j6yXOdUfdHB4eYmiN5etoHP3juH8cI2j2\/c+ys8jHKw="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "10310235a17db02dd081f99be34865ed0c97a9f4fa600eeec77683a89d483e01": {
+          "parentid": "10310235a17db02dd081f99be34865ed0c97a9f4fa600eeec77683a89d483e01",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "j6yXOdUfdHB4eYmiN5etoHP3juH8cI2j2\/c+ys8jHKw="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "10973281e52178c4d96416e1e1bda242baa7d6020ee2a496d24f22b2da7741a4": {
+          "parentid": "10973281e52178c4d96416e1e1bda242baa7d6020ee2a496d24f22b2da7741a4",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "j6yXOdUfdHB4eYmiN5etoHP3juH8cI2j2\/c+ys8jHKw="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "11ab64e043479dd60693d92878cc43bd64e4e2acc042804d8ca34304aa72f6b0": {
+          "parentid": "11ab64e043479dd60693d92878cc43bd64e4e2acc042804d8ca34304aa72f6b0",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "8DGBpdCVWQoHaRWzfBZNpukYqGHrMPa\/dqJ0yLJcY6g="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "21235158eae4027f62dec2d73dcbdf807f1b84af9bd9b688c2207bc90f313310": {
+          "parentid": "21235158eae4027f62dec2d73dcbdf807f1b84af9bd9b688c2207bc90f313310",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "77z7nXZ8B7\/QkMWqoIP+x+70tXZLw0GucJb1hGrL7Vk="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "23d957f2ea9f4b533dfaa6d137eeb7970b2c202819fb4783702db4bb9eea5e44": {
+          "parentid": "23d957f2ea9f4b533dfaa6d137eeb7970b2c202819fb4783702db4bb9eea5e44",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "CvYARMBZ3PztcOte0Xbtsie\/qbgrAhbhoDR86CGUdRM="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "2d513783c7c4fb861fb5c4a33987c5858c944318b823c78d6a76dcaec4f4e65b": {
+          "parentid": "2d513783c7c4fb861fb5c4a33987c5858c944318b823c78d6a76dcaec4f4e65b",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "j6yXOdUfdHB4eYmiN5etoHP3juH8cI2j2\/c+ys8jHKw="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "2e38c2a19009cde24dbd72de5cf787adf504fe0db88f644a06ff1b51d5025a8e": {
+          "parentid": "2e38c2a19009cde24dbd72de5cf787adf504fe0db88f644a06ff1b51d5025a8e",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "lheBvim4fzyd\/NBkqYVI5XQOgObXBvd+8hJfE6uOEqU="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "32a4d68a1ea9fa0226a547bed7c6124e889bb84f1fe22f6afb3cf3ad5361a030": {
+          "parentid": "32a4d68a1ea9fa0226a547bed7c6124e889bb84f1fe22f6afb3cf3ad5361a030",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "2fmaDrto0lEjyOtNuXl3OSSBMInaMKRd1O\/Zo9b5WBY="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "3a3f35966f098d9f9c19ce7724ba6a8345f057d1f3792af891d7440ee2eaf7e1": {
+          "parentid": "3a3f35966f098d9f9c19ce7724ba6a8345f057d1f3792af891d7440ee2eaf7e1",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "j6yXOdUfdHB4eYmiN5etoHP3juH8cI2j2\/c+ys8jHKw="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "4d140973304e2d5057f80ff4a19821b093aa07562e0f4e95c9d50ae1019b2e8f": {
+          "parentid": "4d140973304e2d5057f80ff4a19821b093aa07562e0f4e95c9d50ae1019b2e8f",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "Q+eQ1EUntPkK9mK8wHt7JWdax3Kn5\/qFcbuHHVhLVZY="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "5791dae6dc848c50615811eee59724ee78e62fe38fb449607ec941bdaf45677d": {
+          "parentid": "5791dae6dc848c50615811eee59724ee78e62fe38fb449607ec941bdaf45677d",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "II3JbmYJAnlHElcP\/e3Nl\/md74SQLh4thYBEfpyOKTs="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "6c2c5780ea2ec28b286c242c1e9e73c080255eff1b95116db88e43a0dc24081b": {
+          "parentid": "6c2c5780ea2ec28b286c242c1e9e73c080255eff1b95116db88e43a0dc24081b",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "2\/mI59kzuC4v9Vv\/Zx3jNAqSUuGBagTx2\/28ENc1Gwk="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "7490b8c63cba165393a2c66c0655e034b5a09b91aea1f1df2346e5d470cca03b": {
+          "parentid": "7490b8c63cba165393a2c66c0655e034b5a09b91aea1f1df2346e5d470cca03b",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "3NdM+w9gCv9r1BQRdxEXc+MkucBPZNZ9u50lYrf79IQ="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "794bd85f704a5b757abcfb9ef3c01b487a9dade100a68842dbc8fae2c661653d": {
+          "parentid": "794bd85f704a5b757abcfb9ef3c01b487a9dade100a68842dbc8fae2c661653d",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "j6yXOdUfdHB4eYmiN5etoHP3juH8cI2j2\/c+ys8jHKw="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "7b8e133c7a17dd27e40075eb4e6d16cff2f0361a0bdab668f0335888fad90c01": {
+          "parentid": "7b8e133c7a17dd27e40075eb4e6d16cff2f0361a0bdab668f0335888fad90c01",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "B7iNn5gVJBmAhaxXH\/4CXwW8ffovlCgJKD48uWVhbKM="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "7c8eaf651b768bc6acf29d0fe92220aeade1f6f0ab5c462c2b569b33b5c28b5d": {
+          "parentid": "7c8eaf651b768bc6acf29d0fe92220aeade1f6f0ab5c462c2b569b33b5c28b5d",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "Anz\/uzEEoiIMRiOHwLYOQzcPU1Ph6PTrNEZqhzysXK0="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "863a3d75c5443d05698d752fcd9eea678aa5f79d3d6a3970b8546b6d2ce40c15": {
+          "parentid": "863a3d75c5443d05698d752fcd9eea678aa5f79d3d6a3970b8546b6d2ce40c15",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "o0rmfRfdn5yiGVFRRpDGCGhwEur8Dc\/UzKnmCT1uSC4="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "886fca7c1fec93da31f4cc83967a6540d9be294054354ea23bf9bfb9b51fad04": {
+          "parentid": "886fca7c1fec93da31f4cc83967a6540d9be294054354ea23bf9bfb9b51fad04",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "ND5a+s\/zrIUeInVJBYcO+EnC4h7RJX5iy6uIg2abnyk="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "8baa20210a4e4f192526c9fb7ec85a0bae88209e7e3218bc8e11dd8a6252968d": {
+          "parentid": "8baa20210a4e4f192526c9fb7ec85a0bae88209e7e3218bc8e11dd8a6252968d",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "GdFustdr5ePr6xmKX\/jKIbJqbWbkooLYxBE7eX1\/mfI="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "8f730cef9a5f35a80e6d190f95be5e1c66753d96ad57f0bff367c099b99c99b7": {
+          "parentid": "8f730cef9a5f35a80e6d190f95be5e1c66753d96ad57f0bff367c099b99c99b7",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "j6yXOdUfdHB4eYmiN5etoHP3juH8cI2j2\/c+ys8jHKw="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "93b8a86730c24d2db4ccd869c7a5a810dc9fb1ad0e5a4e6d4ecf84d252976ba3": {
+          "parentid": "93b8a86730c24d2db4ccd869c7a5a810dc9fb1ad0e5a4e6d4ecf84d252976ba3",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "Qzxq+nlBpj6MfX9asTBS5FUR2t46rA7tJMlqK3PFPGw="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "9e05013025103b5a831bff5665fa2fa63c1b2ee1af697d8a40027c2a615fb0a3": {
+          "parentid": "9e05013025103b5a831bff5665fa2fa63c1b2ee1af697d8a40027c2a615fb0a3",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "X9u4r2c+hlVSvLdanQ8X+AIJUycJowROdZTWP0\/oVpo="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "a35678948df15f71ab13b8771fddc1ac20db731693a137f6c978c95aaa6898ea": {
+          "parentid": "a35678948df15f71ab13b8771fddc1ac20db731693a137f6c978c95aaa6898ea",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "j6yXOdUfdHB4eYmiN5etoHP3juH8cI2j2\/c+ys8jHKw="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "b012841b17b24aab5c45856f85977b78098397f67a129225e6224ff58c981455": {
+          "parentid": "b012841b17b24aab5c45856f85977b78098397f67a129225e6224ff58c981455",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "j6yXOdUfdHB4eYmiN5etoHP3juH8cI2j2\/c+ys8jHKw="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "b3635a00c109098a04d6717b9f742e7541a3663907f2b4f04f130fc3f73bce45": {
+          "parentid": "b3635a00c109098a04d6717b9f742e7541a3663907f2b4f04f130fc3f73bce45",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "FPDkyn1a1rVgiDU2lsaVvFEKsBTvoSbl+6KbT9+k3Gg="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "bc1042471a7fcc7aaf2d570d7de6eb795874ef726177ca2e3aa26781be4ca854": {
+          "parentid": "bc1042471a7fcc7aaf2d570d7de6eb795874ef726177ca2e3aa26781be4ca854",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "j6yXOdUfdHB4eYmiN5etoHP3juH8cI2j2\/c+ys8jHKw="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "c77a14240e5354bd24d8cfb03d8476579c60c93eecf146054150813eb09eec0f": {
+          "parentid": "c77a14240e5354bd24d8cfb03d8476579c60c93eecf146054150813eb09eec0f",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "fdH2HUslmhJmnTWwj8Rc2qjqYGe7ivQxcdmhzFymGkM="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "cb9580f2b7577fc09d76dffd5e2d1e97d29c2c8aa6ced6f7fb4c2af80fd275a8": {
+          "parentid": "cb9580f2b7577fc09d76dffd5e2d1e97d29c2c8aa6ced6f7fb4c2af80fd275a8",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "65migNvCNNUiMSghVXsA1HxUWTcRmEQw6NtTWQ4WGZ0="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "cffa44b234ef4b867dac24bec4996f07b129bb24f1bf7238deb75a5f6b8f4834": {
+          "parentid": "cffa44b234ef4b867dac24bec4996f07b129bb24f1bf7238deb75a5f6b8f4834",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "bbrPWiozVPsMbPT4JMPrRL0SThG4D7nMNoVZmbh1+rE="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "d84d2eb48e5e427e2302b61980cf256f77f3895042b1e2fdd00debd430ae2a0d": {
+          "parentid": "d84d2eb48e5e427e2302b61980cf256f77f3895042b1e2fdd00debd430ae2a0d",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "WwxJO\/TxyAlW7HVkj4H\/vF0brWtIN5ZBCnaAd2CttIw="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "ec23024165f0803d05cb5dfe5a1026214f1b9b2ccda9cc723cb774cdac650fa7": {
+          "parentid": "ec23024165f0803d05cb5dfe5a1026214f1b9b2ccda9cc723cb774cdac650fa7",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "RTf0a3A4xoC11rpGkgOZAW6HM12A75Z1\/JirENJtstA="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "f1cf370d6d816d5dbbc44867c035003ad743c45e635e959d447fbd9560175754": {
+          "parentid": "f1cf370d6d816d5dbbc44867c035003ad743c45e635e959d447fbd9560175754",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "mu631Y54a6glC73U0rImCcgvmI5Yt7RVBeExtPQdxyw="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "fe19a4162de485a84855ce08fea7982332a0fa0f9e7201fbd7347df210f19c8a": {
+          "parentid": "fe19a4162de485a84855ce08fea7982332a0fa0f9e7201fbd7347df210f19c8a",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "lReCpC+nLltXKWhYbWOKcMif0N2uuY8mvWNtOq20R48="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "4044a974307f4d7f9c788cc65fd0b6bc6f455a027d5bb2cb78f56c20dc995504": {
+          "value": "559897947954430885007271394",
+          "unlockhash": "15a281191dc800b29b3469a8727c86d923bf6027f6bb4340bd046a2a175165dd355704dc898d"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "5a0f146cf2b57b1cfabfd93aaae901303cc32d4bc353d25b62257536805f3f60": {
+      "siacoininputs": {
+        "78afe19349d4092a014290aefa4a4150397a66f8e21de3cc57d228776f1564e3": {
+          "parentid": "78afe19349d4092a014290aefa4a4150397a66f8e21de3cc57d228776f1564e3",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "mvQt35FXY71AUzQN3IlvnesRdoc1JWMG3OHYvExdzYQ="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "a548a00099da55763cea7c22e7e0359b4518f0985fda5312b486dca5c37d0a6c": {
+          "parentid": "a548a00099da55763cea7c22e7e0359b4518f0985fda5312b486dca5c37d0a6c",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "jf2NVusvs5\/QffJJeKCHNiy6Dc3L45nBJxTsVYhtCWE="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": [],
+      "filecontracts": {
+        "60d4f1ddedba697bfac21c9b88f5e740fc029bc67fd8c5bed043ffc765de4cbb": {
+          "filesize": 4194304,
+          "filemerkleroot": "cd5d914dbe00e95c9650af399d8e06c0baf788a9443e07ee9ac087f2fe8b931b",
+          "windowstart": 162000,
+          "windowend": 162144,
+          "payout": "2062885187871276193925814",
+          "validproofoutputs": {
+            "2e39d5abe125a44bda02634feb5fc2aa5e3faf4a8b34cd50dc8869a5d3912517": {
+              "value": "437414256535984855698773",
+              "unlockhash": "2c9862a5361d9f8987dee08275b8933919b1865b66e757ce007b6feb4b3b34647cd464d89b2e"
+            },
+            "99bb228738bac46c475a98228f87129a5b4901b5e2a015e5cac902776f0b640f": {
+              "value": "1545018409008311566667041",
+              "unlockhash": "9523ae1996edcc049ce6f2eb9f5a4bed9df16b83d024f892476c8c8178f8727d77f8d49663ae"
+            }
+          },
+          "missedproofoutputs": {
+            "3da7d5864cf5a742446e8370bc99e9a4ddd5421f33359aa0818856068b96b8eb": {
+              "value": "437414256535984855698773",
+              "unlockhash": "2c9862a5361d9f8987dee08275b8933919b1865b66e757ce007b6feb4b3b34647cd464d89b2e"
+            },
+            "57590803a66ec02cf5396abcf78780e4fc786aa7432213abc333399a38f466f0": {
+              "value": "2579496959988927037440",
+              "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69"
+            },
+            "8555edd3479028dafc3a564264150797489ea5fca7f3aa684951e476a92bedd7": {
+              "value": "1542438912048322639629601",
+              "unlockhash": "9523ae1996edcc049ce6f2eb9f5a4bed9df16b83d024f892476c8c8178f8727d77f8d49663ae"
+            }
+          },
+          "unlockhash": "cd57c0d3bc4a18daa9853a36677f7d664b7a93e4fb3346e0b41de7366e44eebcf801c0cc8cb1",
+          "revisionnumber": 0
+        }
+      },
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "638fd0cf224904fc5ebedfca40f947736f07ce6417b22b01f5399d316c3d126c": {
+      "siacoininputs": {
+        "2d91d635f6ada6b11eb04d6047eab321b8ede51da6d8a68197f5b8ca12a28687": {
+          "parentid": "2d91d635f6ada6b11eb04d6047eab321b8ede51da6d8a68197f5b8ca12a28687",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "szFqJkCCwVZn+Ym+8ONuLHloPtD6T3SyDx2Riqmxlco="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": [],
+      "filecontracts": [],
+      "filecontractrevisions": {
+        "b2767524981d738652773ab7ba897cbb77695d45af0531bd20639a18e86ea208": {
+          "parentid": "b2767524981d738652773ab7ba897cbb77695d45af0531bd20639a18e86ea208",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "7OXgegN225+zhU2r55lFRIVt7C2rygRyQ6F81vfAOzs="
+            }, {
+              "algorithm": "ed25519",
+              "key": "l03sMQ1X2NieVpJQV8prnVV\/uRd7pWGfqeUmhPDtnt0="
+            }],
+            "signaturesrequired": 2
+          },
+          "newrevisionnumber": 1,
+          "newfilesize": 0,
+          "newfilemerkleroot": "0000000000000000000000000000000000000000000000000000000000000000",
+          "newwindowstart": 149366,
+          "newwindowend": 149510,
+          "newvalidproofoutputs": {
+            "6fab387b478c4de9729c1dc3bd97c54397a90f21c5bec23b6e325d425b741ecf": {
+              "value": "429041070687880744554987520",
+              "unlockhash": "3ffbf8c7374c3ec6a39889e7bf4749f2f711d8179883be35b2ace3af38097d21366525988186"
+            },
+            "754b7cf611f352d43ab3b7ea7a4ff90b2e520e9e48b3f1220112f235a8d44f8b": {
+              "value": "8528084938221657323644507",
+              "unlockhash": "30f973b09da6a4d6f7d63c27af5d061b4990dddbe4f2f6f11f564819c27cc0a425036747e7c0"
+            }
+          },
+          "newmissedproofoutputs": {
+            "252ec49ce0b12766ceff35e076725a6c60dc48f378eaaaf12975f5851ebfb43d": {
+              "value": "429041070687880744554987520",
+              "unlockhash": "3ffbf8c7374c3ec6a39889e7bf4749f2f711d8179883be35b2ace3af38097d21366525988186"
+            },
+            "327e8fb68e0726320e72c4e0d7759e214f33b36df1a1e5d1eb7394f364116a89": {
+              "value": "0",
+              "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69"
+            },
+            "de73d6f755c49b1565afb46025e5992e227c48d58c553223435b99db52dba8c1": {
+              "value": "8528084938221657323644507",
+              "unlockhash": "30f973b09da6a4d6f7d63c27af5d061b4990dddbe4f2f6f11f564819c27cc0a425036747e7c0"
+            }
+          },
+          "newunlockhash": "0d5f5f6f067de7d5e21a0f10b456d60556e9cf1a8b921fabe18d029912772b65ce4473ad5e16"
+        }
+      },
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "68d700487724ea984aa008e2ca5d64c6809ef99cf10f85306587958af6c7a63e": {
+      "siacoininputs": {
+        "6c209be29f6f5dcfc968a5cd85dcb3ae57433b02225c27815033c4ac4bd3aa68": {
+          "parentid": "6c209be29f6f5dcfc968a5cd85dcb3ae57433b02225c27815033c4ac4bd3aa68",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "Ob\/EorUtjQKjIGAtdLKsEhabpR357rRXf78kih9N3ig="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "0a010c5f779a6c6865885f5694da5402a335abf2c4df2ce6813e471137a8667d": {
+          "value": "49963600000000000000000000",
+          "unlockhash": "15bac4af95472861e056d0273a9e4cb197969e6eee3e191259582b3fb69d03ffd5ca1ac088df"
+        },
+        "40038852003d3141e673494f61cfa890ee3ad6c073bb7485e3f4ea6ce7189b15": {
+          "value": "1129313555533026076666320624703835",
+          "unlockhash": "d96afb2ad697453bbccec716132655d1431e7b55c2dc07943f74b0ee980d6629fa071a900d13"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "79ac28db68d0c4479ba341ac8b1eb0be354fe45ec648fa8622c3d43246df4cc9": {
+      "siacoininputs": {
+        "e7cf7e0237c9fc0e184825e97d109ef04b8d19fdf028622315b890b07b7d92c2": {
+          "parentid": "e7cf7e0237c9fc0e184825e97d109ef04b8d19fdf028622315b890b07b7d92c2",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "TmRqR2W9\/IWTwi+28wAc6vcbBhGLU+lRJ+0jlxPSAPg="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "6c5291a91a0db6abeedd8c9938c554eb4139b04dddaf48c3cea760f917b23680": {
+          "value": "2034000000000000000000000000",
+          "unlockhash": "d2869c9c29e2d9843bc00be17d76b1e829bd4c9fe837a6adb3d7b7795ab6182e661d6da7be11"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "7d12ccca9de07f6679071068829fc2c22606b7ca46f5526b1ff4cd1077f85a47": {
+      "siacoininputs": {
+        "82785f18aa918c743393f0294d94f294fb04b8a92855833df2d145dcbcc26345": {
+          "parentid": "82785f18aa918c743393f0294d94f294fb04b8a92855833df2d145dcbcc26345",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "UYftzI9h3y2sIjpXioOBlhvmhO3uwAsKHcFvkZQEes0="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "d40ce21bcf9af6702b137a20720324f3bbf567976708fe159b5fd38980c60926": {
+          "value": "35101522221100854826010000000",
+          "unlockhash": "459434113c0a3fefc4c2701aadaea0d415e9698d09ffd1bcc2737b07851f42115325c7a12fba"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "8967e065ffb6afaf6dd2e28c887da808ce8258c013754cc609f87f18b9056437": {
+      "siacoininputs": {
+        "8cb859b3da161b8cf0fd864af098d93a1c6477ca068c053a46928fda7ea9fdc6": {
+          "parentid": "8cb859b3da161b8cf0fd864af098d93a1c6477ca068c053a46928fda7ea9fdc6",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "wWPofzzGLFBlDCyg9oU3xTZ2Y6\/\/GAsCHti441pT+zo="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": [],
+      "filecontracts": [],
+      "filecontractrevisions": {
+        "9e19909307c5da2689e8052f9d4b7e7f7e882d95235af414b79f2e784420f9bc": {
+          "parentid": "9e19909307c5da2689e8052f9d4b7e7f7e882d95235af414b79f2e784420f9bc",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "rg4zfMp9uLQuVSduOTELD\/lWMoRmcs7rEAkdZAj2D\/E="
+            }, {
+              "algorithm": "ed25519",
+              "key": "J+pUSWmdTGUSiLIbSU99dYZX+vLHYLyn6kniOb+bGU0="
+            }],
+            "signaturesrequired": 2
+          },
+          "newrevisionnumber": 1,
+          "newfilesize": 0,
+          "newfilemerkleroot": "0000000000000000000000000000000000000000000000000000000000000000",
+          "newwindowstart": 149366,
+          "newwindowend": 149510,
+          "newvalidproofoutputs": {
+            "91aadb7ba4376d5d9ad3e83836da30abef85c5da62e153a22c63f1fc62bd3581": {
+              "value": "42606278553320100101608499",
+              "unlockhash": "6fba6e1b20615063916cb25636074b6b28f63350e3e5ee283e22c0c0340b70d259d89fdf5584"
+            },
+            "e407cf427642b280ed2040a4a3fa85dcdc9b2a5c6d8d6269b6b3a67f7205e44f": {
+              "value": "88208214137576148910997504",
+              "unlockhash": "b370a133ca7dba4d1ab648f22aaa05e52fb55753f4bc73ff7809d8171464727502b304d84828"
+            }
+          },
+          "newmissedproofoutputs": {
+            "1728ff592b9ea2e153719cedbdf05ea537e80eb1b413de538fb7b4b14fce309b": {
+              "value": "88208214137576148910997504",
+              "unlockhash": "b370a133ca7dba4d1ab648f22aaa05e52fb55753f4bc73ff7809d8171464727502b304d84828"
+            },
+            "261ff915ac1eb9d9295148f339b7446827d373582f8cd74837d606eb6f4ac280": {
+              "value": "42606278553320100101608499",
+              "unlockhash": "6fba6e1b20615063916cb25636074b6b28f63350e3e5ee283e22c0c0340b70d259d89fdf5584"
+            },
+            "b0bd1dce0500f46c2aff7c524a8438168def8ec57b986843fce3ddf76a353d23": {
+              "value": "0",
+              "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69"
+            }
+          },
+          "newunlockhash": "07c0ac4823c352bfb013229bc6f4fb668f4fbb94e52fc3acf21e9cd9ed5c73cfe79122ca15f1"
+        }
+      },
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "8b3e8ccb42ca6511378214b7320b2c3df34206a1de8b517fa55ad90f5a555395": {
+      "siacoininputs": {
+        "b8427e13368eed1114fda3f7196867b10724f9b28a6350227500eeb9f84eac16": {
+          "parentid": "b8427e13368eed1114fda3f7196867b10724f9b28a6350227500eeb9f84eac16",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "D8iUnylCoKIG1LvcjXMHHHzfkXadEPMjYYNBn7YMCx0="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "c407ba3928a8da31ae1ceab5faa1d2c4d8bd7a86dcc7f695ba7747221bffedef": {
+          "value": "1128819063970996823819784210031747",
+          "unlockhash": "95e37fe07af2a21b908ef8f88687d314d7ff5c97384f4f5894ac5a4144f5d3fefb25a7f2cfe7"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "918cc839b7a08ff85a1f09703d7c427964d25d343375e85a7cc0c6d5c9fa5299": {
+      "siacoininputs": {
+        "8b90adcd8eb8e8f4a0c1c6ccec01e2ad7d7b2fbd66a67a5371c663e2a9b4c8be": {
+          "parentid": "8b90adcd8eb8e8f4a0c1c6ccec01e2ad7d7b2fbd66a67a5371c663e2a9b4c8be",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "K1+q0mq7RJ17k1FPUWAwFs5wQ9rcc7gfOE0W8O+s2do="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "47d3115b46c4128ee51d3ece01e1a8273a8c82e291bf9d5621c886fcd693bb38": {
+          "value": "31320000000000000000000",
+          "unlockhash": "82a8eb1bcdc7921fbe76a869a764ac344bb2c6780a48e7c00c882d5ae1d5595c85ec05c52e3e"
+        },
+        "5706d7a760fa0cd737281f7ed4a6ccd3337787db04767de6202e31f17a521506": {
+          "value": "884139663194820343095839269",
+          "unlockhash": "0c419d9ff4d85c5551fd41464dade21f127bdbc8b2f992b63e546b027c302c5f70859b72fd95"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "949d15cff9b003ed88ee2813a35dba990967222808b7f8174e0bfc7e435661dd": {
+      "siacoininputs": {
+        "33dbe885fe550b1728d6708cf27858466d8671da7057ebb175dc22eacd5df428": {
+          "parentid": "33dbe885fe550b1728d6708cf27858466d8671da7057ebb175dc22eacd5df428",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "nvMk0uxJyPJciPgTP5vb3AHXRTYBv+V\/dA7QEQE+G\/c="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "60a066b74ef407054cc97cfb876e8ee77402c472b510c82ef563a6f5b7d20a9c": {
+          "value": "100000000000000000000000000",
+          "unlockhash": "55b060354342c76e7cee8a8d1b85ad49265f9b6fe6feb165f8bac99adc43acb02c2d81613240"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "953b8e791b1e89008df5cedb7ab26d9de8722310d289a9acd39277947a63a65e": {
+      "siacoininputs": {
+        "d6bacc97ce31d41dba0ddeb20a776648ae34094552e42f72394056a99517b516": {
+          "parentid": "d6bacc97ce31d41dba0ddeb20a776648ae34094552e42f72394056a99517b516",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "TFXb\/tSignE+9zW0vZz7W9DUXqHAg35VHZV8XQ4\/cEs="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "18986ff600729227ac8e4cf6418c5fae6bf25444797e8dc268fe3dcdbbd6cba9": {
+          "value": "31209942136044137209420800000",
+          "unlockhash": "9c48bf41ac73eaa7afa42302cc6f2819da0f0bf06037df0d88536785e606c528fec2905ce14a"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "95995d00f9ae942b0294cc7ed878e7906bac39f0289cfb6148c8cb2ee9770639": {
+      "siacoininputs": {
+        "091199496946081f822c5d8222b4a7fc27f92d9401fb47e0ffac8f96bff53a5c": {
+          "parentid": "091199496946081f822c5d8222b4a7fc27f92d9401fb47e0ffac8f96bff53a5c",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "VSK6FGXj0ijinWYwqySf1wiE5kfplYnO0nHm7ZAvQPM="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "2841811727533c022e0b5177f20ca9e66815a3e0c2ad00cc7ed2df566f3bbf82": {
+          "parentid": "2841811727533c022e0b5177f20ca9e66815a3e0c2ad00cc7ed2df566f3bbf82",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "xrvOlaHNfyIzARgQxApmds4lBDgZID00fi6+e1X09pU="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "e8974ea76f82cecafc07a13272772e05d185638f4f0d3e8a29298f410164e702": {
+          "parentid": "e8974ea76f82cecafc07a13272772e05d185638f4f0d3e8a29298f410164e702",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "ct7L88q1qEhSJInsQW8vix8\/UZ4u6KgkUB004rjTYfw="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "638c3db08ddcdcd8118efd0f046977700e7e322763b66948f651119c18852439": {
+          "value": "542500000000000000000000",
+          "unlockhash": "be9df37764b51bf416b86eb2a51222f65e159fefe974200c863992676a3e1f3d85ed3fb72483"
+        },
+        "ba966b7edf7477015737f83702d399fc90ad9b9dda9cf3fd07d0995ecc37f957": {
+          "value": "200022500000000000000000000",
+          "unlockhash": "f579810afb5ab9e40c07857813324a0fc6e7a50ff44ff1b0b978d92700d91a545b8eafaaa484"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "97c19e32851f0d7d8e73024b89f91a7c29af958baa8f9d4053131b75ceadd299": {
+      "siacoininputs": {
+        "9705bb58ff168050c6eda17399b51c5d179c8456e63a2b0a8d21a5159fcac83d": {
+          "parentid": "9705bb58ff168050c6eda17399b51c5d179c8456e63a2b0a8d21a5159fcac83d",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "eZ1Ck7Q2G8zVZ91Xj4Tbx1Y3a0NSDYsTBLp603Bi3hk="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": [],
+      "filecontracts": [],
+      "filecontractrevisions": {
+        "db2663b6d261f4be9339e3dcef375c7417453dd4abd4c1bda3d0091c689f1161": {
+          "parentid": "db2663b6d261f4be9339e3dcef375c7417453dd4abd4c1bda3d0091c689f1161",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "CceSJmFLVLwJcoUlMBWM6yqPnmA6NYLLn7rh1hmlIZU="
+            }, {
+              "algorithm": "ed25519",
+              "key": "nfTZ3gofL\/fYix5mSNx8L3UMacKgb6jC45X5X\/ftE4E="
+            }],
+            "signaturesrequired": 2
+          },
+          "newrevisionnumber": 1,
+          "newfilesize": 0,
+          "newfilemerkleroot": "0000000000000000000000000000000000000000000000000000000000000000",
+          "newwindowstart": 149366,
+          "newwindowend": 149510,
+          "newvalidproofoutputs": {
+            "0b8d1011f10f304a8310e9ab046088178ea0503729c7a1b90dcdefe3ec278993": {
+              "value": "85189020991550803099932503",
+              "unlockhash": "dc3d7dcbfc1cda32c5b0fc203169e0632a9f54c94e15ddd36d481edb64c401a4eb577c8eb826"
+            },
+            "54de0f2dfd22ecfe1ed396c81d6c15c592b1e7f09af0952a618f8643ded74cdc": {
+              "value": "343727604375040084072726528",
+              "unlockhash": "a07de3cce2fc23217e1923ee82b15c447d11a0d6a32b584dd543fb5f8c7e08081f461d8c8cd3"
+            }
+          },
+          "newmissedproofoutputs": {
+            "670a51c9205902e51f6965c86f83bde4273051ea9eb938b00d9c19fae5f61d0f": {
+              "value": "85189020991550803099932503",
+              "unlockhash": "dc3d7dcbfc1cda32c5b0fc203169e0632a9f54c94e15ddd36d481edb64c401a4eb577c8eb826"
+            },
+            "b9cd42e123d6483fdf65033664a8d5d25bf50b01ce455162c7b74ca2b86ccfbb": {
+              "value": "0",
+              "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69"
+            },
+            "eb7bc72feb86a3f880a31402c8b67d90d8614e220a26c3ab7389b5781c0b0a85": {
+              "value": "343727604375040084072726528",
+              "unlockhash": "a07de3cce2fc23217e1923ee82b15c447d11a0d6a32b584dd543fb5f8c7e08081f461d8c8cd3"
+            }
+          },
+          "newunlockhash": "d3df5e9d69ca80eb8a9486a1b03e3cc026b27d33318121576214c868ac7209b8f3ff62dbbe39"
+        }
+      },
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "9c2b052652dcb764491746231f18e940a6653a6e5eba28fd0164377d0a2c3a4a": {
+      "siacoininputs": {
+        "35a378bb0427f30908f909cbb490b4baadda42c5b8509f529ec00807269c87f8": {
+          "parentid": "35a378bb0427f30908f909cbb490b4baadda42c5b8509f529ec00807269c87f8",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "1pkZCqlC9sHlRwn4JzVizMOkU9\/aSQnBuBwKLrlVd4Q="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": [],
+      "filecontracts": [],
+      "filecontractrevisions": {
+        "c2043b32fb2a20401c37c5dd7d2392d39d15e7c0bef7ca87f2e26c475d5abb48": {
+          "parentid": "c2043b32fb2a20401c37c5dd7d2392d39d15e7c0bef7ca87f2e26c475d5abb48",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "S1BmZmRJ5j161yHsDbAbl+6HTvI0rUzwpj1zmlKiog4="
+            }, {
+              "algorithm": "ed25519",
+              "key": "SrtrLdZ1VCgHGPLXVsJecRtZjb8uQJc+wJN4GJuYAtc="
+            }],
+            "signaturesrequired": 2
+          },
+          "newrevisionnumber": 1,
+          "newfilesize": 0,
+          "newfilemerkleroot": "0000000000000000000000000000000000000000000000000000000000000000",
+          "newwindowstart": 149366,
+          "newwindowend": 149510,
+          "newvalidproofoutputs": {
+            "24b51478ba7bbc0afb525ac10aa11b70a8114941a3a270bc1f229de5ea1ef500": {
+              "value": "51139971516960553586060136",
+              "unlockhash": "adcabc53b2576427c49e55adf844da494892943861ed3c0a2e87c35de897ff0bce0956d8d48c"
+            },
+            "c180b6c1531f16755d12cf27663b13f1bcf0013f1f6d7a4fcd82fe495f97a8b0": {
+              "value": "855082141379442483960741888",
+              "unlockhash": "ac4d190feb0ebe6d997871e259511cc332c19cf2be86d3a6fa3b06c79be0ea601cffbbc6ca98"
+            }
+          },
+          "newmissedproofoutputs": {
+            "0185bff24d4d35a6f31d9a2baba6760c2246e3d3497a9d5d1114e29df49d0e9a": {
+              "value": "855082141379442483960741888",
+              "unlockhash": "ac4d190feb0ebe6d997871e259511cc332c19cf2be86d3a6fa3b06c79be0ea601cffbbc6ca98"
+            },
+            "63e797e8028fd3785b92bb65ce4709660bd75fc361e915858ee02facff59459c": {
+              "value": "0",
+              "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69"
+            },
+            "e74a59d048434adb01294021ad8c3a5a100eeb71a3a29811223f5908eba73b96": {
+              "value": "51139971516960553586060136",
+              "unlockhash": "adcabc53b2576427c49e55adf844da494892943861ed3c0a2e87c35de897ff0bce0956d8d48c"
+            }
+          },
+          "newunlockhash": "cdf27fd6cd1d267367a38e7f9ce163991744bba2e422dbc79e18c5f2288d9f24ac1aa9b3659a"
+        }
+      },
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "a31ad94b84271f9566ab0856d5c3c4f4f7fbe695e0014172a2612f0f7f8e4ea4": {
+      "siacoininputs": {
+        "1ab8c6f5036300d379be1f9c59a2c7c082f2e34994fc1dc257915484e6d392c9": {
+          "parentid": "1ab8c6f5036300d379be1f9c59a2c7c082f2e34994fc1dc257915484e6d392c9",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "MN7Qt8HSHtv94UfSVuWpo00Gx3PpXaXhKzNGI3i\/DKw="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "0202a50701e38eedfd2a80dd502a9fe5aabec3e7c2285de2038675d064af4c92": {
+          "value": "1007964996386100637000000000",
+          "unlockhash": "ae1ba03b4101122f4778268d60beb16c89fbbd7cdb9a8ce42b3edb6565e2becaa704c6692e49"
+        },
+        "08dfb1d3eb9e7c57f54e17a4cafeb900dedd00079578733bcddb4b08e88b1b1c": {
+          "value": "1008979551073058277860000000",
+          "unlockhash": "106706886c07d8e0aa6aae28b331479e470ae3188a1d6d0a6c4c8809cce536a43d309e6b6929"
+        },
+        "14c0a2213e3d353f899c8305355231a906ae6b339b15daaf449554e60915be0c": {
+          "value": "1001419453235950941400000000",
+          "unlockhash": "0c1f4ae5c9c0d5f4e1cd325724a73c9b8741e33908f693915b9ad8d9f9d9ea064bb1c09956ab"
+        },
+        "159b52961efe44dcc77a32ce9d3f9a62cfdc01c4f3425dfdb39b4a609809e5f2": {
+          "value": "1010908192232543288370000000",
+          "unlockhash": "f166cfb2f6ea7a0baf3c93c239d320f9fb8e2fdceae763e9e1c9c8692f28894564a574e1a8a1"
+        },
+        "182cffcadb2b4772eb3dd174e019f8037114d60454d947f78c40a06a359b0107": {
+          "value": "1002076742532774717040000000",
+          "unlockhash": "9514691ad86d6bca5e323ff6266e1f4986aa92ebe53c803f2b8d811635cad2b7f2a6d7dcd106"
+        },
+        "19e8e32f145a4f2edd270453703b349e506a7b99f4af56e4d136930b8a99874e": {
+          "value": "3802939098228946032410000000",
+          "unlockhash": "5a1297d7322d6d08202d1940d1e25ee6cfd581ea5c5182522f2cefb55912a90d5207f977c12a"
+        },
+        "22df594837c5aa80d6313812a4f8a37ddccba99f4f319053d48735ed36e28e39": {
+          "value": "1004549145778645266890000000",
+          "unlockhash": "7ad9147b0d8fc7eb56afbb8fa95b9089e580938f576f0eced53b436de8aa57ccf5a9e2a67395"
+        },
+        "2a6087ae16d1d1dbdfe3eddab96e6ef4a50308d764a8fbe2c2e9a277398e8ff7": {
+          "value": "1004712319680217333740000000",
+          "unlockhash": "78e75c6d0419324ccc0a0ccbcd59f9ff8e241304745356a026cffe49365f45553922b07a9bb7"
+        },
+        "307181b56b9e73b6cdfac05a4373469197de7d551e6dd51f6b63757181c731fb": {
+          "value": "1474659288078789004620000000",
+          "unlockhash": "f601950ed5bb652327fc995ee2f23b460570dae79bca25024edb6030d30cee9a2dfcc37f7f4e"
+        },
+        "36e053a3a32f7d6f5ec41275ad1888a40915f248a3bd863adcb832397d15a2b6": {
+          "value": "1493453982491733714900000000",
+          "unlockhash": "a9e1ea1fd13ed6c9c1cc069544ee065ef5beb096fd12fbde718ea348d6b78645c4281559cc57"
+        },
+        "382e96f97baf353a518e727c954efc1e814197cf3efb822972fa3ec86fca8a30": {
+          "value": "1002196689222164585760000000",
+          "unlockhash": "cc17f25e52b7a0c39fb67795e1f57aae51e6cbdaf6b3aa07ace06d19d1df0666b5680349df22"
+        },
+        "3ace3e2d2a463d86d9241e746cfdac315e39f6ac52151a9c47966ae60254dcea": {
+          "value": "1004072015531535569850000000",
+          "unlockhash": "c83f6f0e42c9bd646084be2a98cbf079ecf622bb82c0d2196d5710d4946847d8f3ac4edae315"
+        },
+        "40444e7e0ac6588e44c56fd97cf3301e1ebe404b1ac4a4d1efc00ca773cf6be1": {
+          "value": "1010646439146247773700000000",
+          "unlockhash": "b2a7283e4c18917f6b66b8e516543f7b3702b78f7662464be0c34b99d6f0ad1c3325eacfb135"
+        },
+        "446edf1dc27bb1ef2800736b0eeb1dcb405ac3f7ec18fc64c1ce7f419fab1fb8": {
+          "value": "1472563046244922474630000000",
+          "unlockhash": "ea6d61355bee3753224ae67841d5740026090d452fba485d24daf2f7aa014d9ed52562ec7ba9"
+        },
+        "487087767a8a206eaa7187332bf3ed6e10cf117083d35ef07e49987e29adeaef": {
+          "value": "1001658594496846050560000000",
+          "unlockhash": "cff0ed1001a659d371e9c292b99099d7b7c4b2d2b97ca5d6fa415de1aeae51be5cf128e83df0"
+        },
+        "4afc974d866bb765e95752646754a07200021942311a6d83ff1bc33340d9f348": {
+          "value": "1009537937352754119060000000",
+          "unlockhash": "5bbfbecfd691fee724441b70b9b0f269d60315c325a2f9234546da58c96f7b50320afc83d318"
+        },
+        "4cc93f77c71468fa03e83eac7fa8242a7a4ce77e5db5184c0992043296fa93e5": {
+          "value": "1008500209186092883600000000",
+          "unlockhash": "cfd00271dab71189a297738208c639ae4b6c51af7e11c52c981acfedfe0dfcb2932657e8a9d6"
+        },
+        "4f57da4658f1152987427649c9cedf691914fa60ecaa0ee6d5997ac003a45a32": {
+          "value": "1012995190949712159200000000",
+          "unlockhash": "a0ab0139973dbfc06c3700b0c425781ca6df02be6ab3e9d715b4923363618c64f32917fab642"
+        },
+        "4fb9df841517469441f4abbc9ed46bfa7aed2f8ff42306bbe1d7dc1e62719f56": {
+          "value": "1004255010658923571120000000",
+          "unlockhash": "d59aaaafb0ce7f0076329f6a2701dd790e6e54a069a6d519ca339665254be24441eadfa5d477"
+        },
+        "5dc831dbfca64eb0f8789a7c2c4b078990d3ed6d4002b2cbb7c01b190e3610bb": {
+          "value": "2097607930730537907120000000",
+          "unlockhash": "2315db6bee4da606429706b65c0c7c827de8d381bbb63c8070cc50d5b75e56ab225debaa932b"
+        },
+        "629f578216feac61bfbedab4867db1f502a1082efa1c000f10568b28c93fd266": {
+          "value": "1003006619671172232620000000",
+          "unlockhash": "7c91c77645e380edda5f4acfc37009b7b2e49b4479e6bb40519ce2966966eb4805db0fd44710"
+        },
+        "62ca7032449258aef5107051f5daa5300d843c735f452603fb26029cdaa5cc18": {
+          "value": "1543900546155624654480000000",
+          "unlockhash": "a933c205f2683e6455084bcc7d4916a028765418fcefcf9352179d6e98752a406976e0277959"
+        },
+        "66df8f4bff4690ff636490de90b4378c25be551ee292d4846e950cca3ffd2fac": {
+          "value": "1012198899618778242000000000",
+          "unlockhash": "587c893b8d2366252cb0dff9ec4149b316a310d784d30b35e8d0a81bcea19329846a76217f58"
+        },
+        "6e1f6b230e9c46e795e381c39a804550c7299bcddf592a0a4beecd6da49aae71": {
+          "value": "1006341197471523588010000000",
+          "unlockhash": "84bf9609cc42e5decaec1d68016ecb41704c7f83c2edbdd1fee59d5054fad3bfed2fa43e2de0"
+        },
+        "6f504c19f75117540044d5ae2c2671c95d1292fa8dd8df2a1a99c7f1b80e899a": {
+          "value": "1002469186244369112400000000",
+          "unlockhash": "6cfe11080429b4fafaac5114dc7e4a242f65649afa2f096b148baa388fbe0649af2fba5f0646"
+        },
+        "70b36cd14ab94fc8ae416328ea5a1b5db89d29dcab2273158f0efbc744358143": {
+          "value": "1013823445922538266250000000",
+          "unlockhash": "4e90096691fa0ffd32e076a737e0bbed0805758e12f314e8cb8410dd4b8866c19b02c80664c1"
+        },
+        "73d4df540a43658e5a6958f4520c4eab364868805ea4c4fd027930ff7a91c3f2": {
+          "value": "1021035856951241685900000000",
+          "unlockhash": "68e52ea53cb6a8ae580fcb1983f346f6bff79c740ea38e6db60f247a403d10067c14b0b125fd"
+        },
+        "759af43a779056c65ace4b9e284fca432000cd13d3119aea7c3a8b67889581af": {
+          "value": "1037186443779423587470000000",
+          "unlockhash": "855dbf1ea2d0965e7aaede8400f509ee5dc3517bf267cc58fda6149a8e5ea73223e5eee5991e"
+        },
+        "7ac72f1c3a2ce6252f0acf4bca91c5811b51b8023d5ceb93b71752114ae6dfcc": {
+          "value": "1008496293990711252100000000",
+          "unlockhash": "c7a94f73544fd093fefef219e35b5c2a3a7987a1038e33bcc6566a76d42c59c2675ef69a749d"
+        },
+        "8e919ada72d215c4ad8decbe3a0d55de6e8b2a8270f31b4d11c3ba2d72c67d84": {
+          "value": "1016362746686463331220000000",
+          "unlockhash": "ab62672890ae1a77a4aba96d77e27476eb95ab60b3081a229f41f35ffdf242a4eaf81c18a642"
+        },
+        "97c0b321b224ebd6f69d2ea6826ff6242a9b3ad33578a246c55d9dfa4bd841a8": {
+          "value": "1007455430433717334030000000",
+          "unlockhash": "f21294b759b459d99d66f9632b4fedec2f682273935cd6ead26e4bba8ca480c9fa27eb944453"
+        },
+        "97e629598a8958af91ec35de52b73a1dc8c8c72b5dbbddd8baa1793bf80e4d7e": {
+          "value": "1007570968640225127460000000",
+          "unlockhash": "33c31a528462c9d77b6d78a9cdc5e9c8f6b0f425a8ac3133bd01a04b7ee8b3ee915fc4849d12"
+        },
+        "9b0263396b1e222edcc17b5a39bb6775361c35b45db0589461932025e5266894": {
+          "value": "1008589417066657802250000000",
+          "unlockhash": "e46f3a371e33f3ff1c366149d1c543269bfbfc461067e1817ac109af565dff0218d9bd5d844b"
+        },
+        "a202c4c454245d69a20a161c005283bf87927a23fbc06f3855013c41a4bbeb74": {
+          "value": "1651728155756458631010000000",
+          "unlockhash": "7487470f0170e6299416d17011a416b9d05ba30cd454d9ecaaa11060aadbd570a2e0db944d5e"
+        },
+        "a3240e7fb14e4571003ffb671d0d99e4c201a5064c228731ba72aacc9f49987b": {
+          "value": "1052024455177916607820000000",
+          "unlockhash": "070340d11e96d2209b266da7e8be4b7958f878800b8088147936c51f8c1d6e9f94be47a20265"
+        },
+        "a4d1156d9a12e1d6de1a63ae0bc84a18c807e94d32977b7e0bd992762bcaa9ff": {
+          "value": "1003442792680354956280000000",
+          "unlockhash": "5413ef1cc558f256da1bdad59f473300877d71c7ad51154ca09ffa43ddbf8f2a8db88021a6d3"
+        },
+        "ae034619cfe05a9a21e954ba0b06fe2dda72ea050030a1a7bd4bb53ca2145161": {
+          "value": "1024381280747792920540000000",
+          "unlockhash": "46b8716c971741d7a19cdc32f70ceb663d4c75c44952bb3448a891ad0b32158f4eb678ca6fcc"
+        },
+        "b7e21dabc928e774f107f47569716fb7c603ed7aab5083b659e5e8bcd2aebaff": {
+          "value": "1020574515312898855660000000",
+          "unlockhash": "4c091e7660d99411ef39036508cbaaaa42401876b80dfe4ae229b856beb4a4bf9b88dad02f36"
+        },
+        "bf09f9eb0e7586afdb61ad2cb9989cf4cc2910caa2f0adb83831af1840f8b858": {
+          "value": "1007644363433162668650000000",
+          "unlockhash": "a090eadc6a388c6880ff01929ce475a5ca3b5adb0592f1cfae7f33f1e188440ee070e3fc6282"
+        },
+        "bf5d10a2b7a649fb83610680fe425f42a6868f6fb26fc8b31be2ad19a2200be7": {
+          "value": "1004846908015882419970000000",
+          "unlockhash": "280ecdbd1432224a2584e1bed19aa5361500c08bb032a45a7d9695b22a4cf5c25dcb2eb8d012"
+        },
+        "c17d8ec80f807a4bebe1d209b15b613a554801b50f24c4f1923b81233491e91f": {
+          "value": "1004239849123600247360000000",
+          "unlockhash": "b7eb91917746a559a8805bbb19c9fb041c0da1eaf88ba5bcdefbb397b3806241931b9c108caa"
+        },
+        "ce0a52a9899ba2fb8a4c93d4fa37b6b2cd68f0dd15db3ec5e6b946af25a5748a": {
+          "value": "1006115921564547207820000000",
+          "unlockhash": "5f9f9633d1564aaaf979fabb3c95ea1b478c5d7aa734267af114ef7462688c91cdd2a414b013"
+        },
+        "d051484a95c29748c06814286a6e5f19671f7e6a9eeabb6aef370f1a622bcc42": {
+          "value": "1610821785571301250160000000",
+          "unlockhash": "a047b9805a98172872f67425b5c0b7a3825212f56eac53697ad6d06f115d973655f77ad684e4"
+        },
+        "dbaf8dddef5ecaa55ce99c9b82bbf730cfd80cc941609c516930077f70041189": {
+          "value": "1386304946140054129920000000",
+          "unlockhash": "0ea7895309b8bcea28f919f9dd5a6f2b44099deb6a7fb896af12247321f1b084aff96336436c"
+        },
+        "e10d72d2d7614a8d504851bd7084eab67da6dcb40a666fca4a5911e3f45af696": {
+          "value": "1018915288134489407850000000",
+          "unlockhash": "4c1cda24600ae5c26717098ee185888fc7ae2fa5f95f2f44696cf8e778e1c5a4ec931c3a815c"
+        },
+        "e9d13c042e88a3b14af458c620311601fba56a7489e564cf9ec2758405dcb77e": {
+          "value": "1485763756422545707320000000",
+          "unlockhash": "22ab21a2abaf29981364fbfdf9e5310626160e7bfc448ad2a7dc77c49d51f61b7db9ed8c4329"
+        },
+        "f09d7fabf90bd16a2e3e37a318eda915cea588041e98c65a7bd85e4e4083c2a2": {
+          "value": "1010984672273124385880000000",
+          "unlockhash": "d1887d2269e9ae783531fd95781d4df5a46fcec74f008ec1e47dcceb415ac5495c4bf099b0bb"
+        },
+        "f1d86014c524e1190b5e0462cb866c0da8f1dcd95a38284e3362a12741525551": {
+          "value": "1002955442494043755680000000",
+          "unlockhash": "b456c22d8184d023176a01355f5a8c8900beadf6207cf66dad8b2b6d3d5e9a4f99f5f9d8c39d"
+        },
+        "f4215c50e66d48f154de588697bc30fa33161ed529aaa1d2b97fae64d5aac3ed": {
+          "value": "1005821431375825291220000000",
+          "unlockhash": "6795a596e349d599437b3b92ea9810204dba357f70695160bb9bc1babe6c8ebc5c33677240be"
+        },
+        "fd0a0131207e43d58ce2db84a7835548a681bd5aed7bad798bf00fb74bd32ba1": {
+          "value": "2083564032085921068620000000",
+          "unlockhash": "a30febbe3713741650b32230b9cf2de92e11abbf47568dc5b3ef1a5838d0ba788f520fabfbb2"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "acc9a936cbeae4962474f99cbf6ea0a8d6795b09f0a694c1a1ef1419fc463300": {
+      "siacoininputs": {
+        "059059a8176802b640d6403fab5308c3454bfe63a9dfa21847c2db8cbdf3c477": {
+          "parentid": "059059a8176802b640d6403fab5308c3454bfe63a9dfa21847c2db8cbdf3c477",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "7bbE64Wk8ho\/ATg9CyW9T7xo571WBgbJ1NkYQ7s\/JTI="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "e5d1502d53ba6d7d6d3edba6ecf9079a542686ec796d750bc7e7cb13789f6c3b": {
+          "value": "35332561527294552689460000000",
+          "unlockhash": "ab79e126030bf87dec85717db373fdb2020ff652169c18800a1b37584cd2f6cc31cee50e676f"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "ad44ccea25c1e4cdac4314e026a04b318db90110d0bbfd387405812ec3d12eec": {
+      "siacoininputs": {
+        "478962247a170a22367bc633043367e6ede0e29e78b14803dff0862ab00da433": {
+          "parentid": "478962247a170a22367bc633043367e6ede0e29e78b14803dff0862ab00da433",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "\/QyLlurYV7HyQuunhPXJugMDCRwAI5pyzHJVptY6Bv4="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": [],
+      "filecontracts": [],
+      "filecontractrevisions": {
+        "d68fc3f7164275813701793a57e3e5b20144a2facd9a6b9a15096ccf63907995": {
+          "parentid": "d68fc3f7164275813701793a57e3e5b20144a2facd9a6b9a15096ccf63907995",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "Ikf9CWw7kcAwKFAmwKc6sY\/4hwGLrycCQtKxoQkAzww="
+            }, {
+              "algorithm": "ed25519",
+              "key": "\/C\/jgJfohjC84XwhAANynFVyG7D\/SrfkWC4hcxvMakY="
+            }],
+            "signaturesrequired": 2
+          },
+          "newrevisionnumber": 1,
+          "newfilesize": 0,
+          "newfilemerkleroot": "0000000000000000000000000000000000000000000000000000000000000000",
+          "newwindowstart": 149366,
+          "newwindowend": 149510,
+          "newvalidproofoutputs": {
+            "4c8e92411dbf9425f3e888af1c66e457d0310b3b910ac09d24d3bfecc8b77f2f": {
+              "value": "88149009788989861152161792",
+              "unlockhash": "f031fca7e517547fa6f85de7381c44cc74f7872ef5874d3dc90891294c76fc7df05190ce88d8"
+            },
+            "b01da794d02eb54e1aafd91722f34954960272727b01de7146e64468c1924b20": {
+              "value": "42576674904838676423627549",
+              "unlockhash": "e2c789d6e123895e7e7efdbaf05aff30384045813dc63033acff507daa4ecba83a385eb44047"
+            }
+          },
+          "newmissedproofoutputs": {
+            "6c0870e390feadb2d1dcf65aca9ffb115c8f538770ec99a00e15fa6eb88a1e4d": {
+              "value": "88149009788989861152161792",
+              "unlockhash": "f031fca7e517547fa6f85de7381c44cc74f7872ef5874d3dc90891294c76fc7df05190ce88d8"
+            },
+            "9534f2dd781697d92f771af898e85de598854b8353498e53002764572865c7a8": {
+              "value": "42576674904838676423627549",
+              "unlockhash": "e2c789d6e123895e7e7efdbaf05aff30384045813dc63033acff507daa4ecba83a385eb44047"
+            },
+            "fd9f98149e3ef342f585c0fbddc8aa386436d797f257ddb7734f1b25c2167ad8": {
+              "value": "0",
+              "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69"
+            }
+          },
+          "newunlockhash": "4c1b69c9293d315dcd54e1b46dfd088ec81591a205ec2464b0d58a1f36c340314b6085af3832"
+        }
+      },
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "bac6a0295100fb2f3f154571842f117b83e2d5a7aeb80c10e3365b40565aa9b3": {
+      "siacoininputs": {
+        "7dde5128a5a9aa923c399d34a47459fcb3ce9542463a9abccfc117144bfafdf6": {
+          "parentid": "7dde5128a5a9aa923c399d34a47459fcb3ce9542463a9abccfc117144bfafdf6",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "ey6kQya6LlPIsq7vsOgcmzJzxUqnbQjjOOxzShOlsZ4="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "13f204b2ed2d80d90154e3950f0fc4c4721a405e9dbae0df6df7fcd96b57dfe6": {
+          "value": "1617701333328011283555456",
+          "unlockhash": "e34dc231331fdec4873007ad4a0af8e9e3805a3b13e16d1fbdfb3dfdea1f887dfe7ec61010dd"
+        },
+        "8717038240ff4b53eec7f9fd5d8b83c994cbee142142628039b728bcb634f880": {
+          "value": "37025330112331705584216508512",
+          "unlockhash": "1e76bc4b99ce1bef24c82de2d6a5606a6112cc2048764d65d98ee73f5bd54382167a60413919"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "c5a26d0a4e151c0d94bdbf0de44da3db97b9c50d3cce71f3a982c34f8b250023": {
+      "siacoininputs": {
+        "50edd62895e393fa2fa7a5f9eccde8fc212b3d6aaa0b573b59f201335957caca": {
+          "parentid": "50edd62895e393fa2fa7a5f9eccde8fc212b3d6aaa0b573b59f201335957caca",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "Zompj6oZ9CHEfat6OCvC9K56mRw4TzN9fWWrGH6ScZg="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "ac4fbff84da6fc91a30fcae9b5da1c9ea063cd48082cdc02d1724cb51978f97e": {
+          "parentid": "ac4fbff84da6fc91a30fcae9b5da1c9ea063cd48082cdc02d1724cb51978f97e",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "oDBOLuIFz0DygR\/XXWbXwh7EuDipza1tcakEgrSJhw8="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": [],
+      "filecontracts": {
+        "13ff9bc4dc4edbca754a882bb67d40a53b6173bc27108f28a0df1bfe9bc48068": {
+          "filesize": 27955036160,
+          "filemerkleroot": "aef6018736136ef33f63d44dee27071c5a32714d28642dc75fe6f588b7cb154a",
+          "windowstart": 159261,
+          "windowend": 159405,
+          "payout": "13168432553039282991731485",
+          "validproofoutputs": {
+            "66750d20ef7692ee6ca75f32e3c42024afec16473db50353056e665bbc43d87a": {
+              "value": "1374863957102685837605141",
+              "unlockhash": "f6c8876ad4bd028355c94f303c229275bf57a53302ba58694ecc75cd8efc8b21064af936ca23"
+            },
+            "ce2223146c0bbeb5616f8f1bd183ddad0e3ff4071e645394b364f7ff0c8b8c24": {
+              "value": "11279999726368065117456344",
+              "unlockhash": "6b6e241ec6d92173cbe8b1d9db590d1962db8f9c1ce262702241756413a4674b406aac76d5a3"
+            }
+          },
+          "missedproofoutputs": {
+            "2281242994ea93a69e6728206779d4537271adb8745c9eec9c326b6ab7124756": {
+              "value": "1374863957102685837605141",
+              "unlockhash": "f6c8876ad4bd028355c94f303c229275bf57a53302ba58694ecc75cd8efc8b21064af936ca23"
+            },
+            "8a1d240f1d2bbcf9115bbe0e84a7c846618527b6a9913093123c6a4cf3b9d9a8": {
+              "value": "10273475788625560574361600",
+              "unlockhash": "000000000000000000000000000000000000000000000000000000000000000089eb0d6a8a69"
+            },
+            "eb3103c53d35ec9a98b523226b3121c639e79a596b399d3649653d25758dd156": {
+              "value": "1006523937742504543094744",
+              "unlockhash": "6b6e241ec6d92173cbe8b1d9db590d1962db8f9c1ce262702241756413a4674b406aac76d5a3"
+            }
+          },
+          "unlockhash": "efc91df602ce02199c8fe8f8b797355e4ef5afe40d0e7afc01d42207890645736b7c00d652dd",
+          "revisionnumber": 0
+        }
+      },
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "cfcc4cb7787b28ebaa8534484ffa6e52dc78df3cf7c94841c03d31b4c52c3d23": {
+      "siacoininputs": {
+        "c484edb2428c65f9a51e2e4148c4012712afb34d5c994448fd395491e011f239": {
+          "parentid": "c484edb2428c65f9a51e2e4148c4012712afb34d5c994448fd395491e011f239",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "Swo2qa0Jpo9IVnj5RM0+F+Up75CB12heAmCEklWjunk="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "7fcb7d780e849b77bed761cd8b8fa826fa15270ba18be82ae86ad01389dcae4c": {
+          "value": "18000000000000000000000",
+          "unlockhash": "4d709ddfbc9420b37a3f584293dd0024744938d7e1d0430bc88074dc7f0cba5b97a52788294c"
+        },
+        "e779ad500c3cd985e6143db04329a5c393288d00422bcfea2e701c4d07d036f9": {
+          "value": "2999378000000000000000000000",
+          "unlockhash": "6e95333c4d6bd75b5d4c71308ff2010c93e6fa726282277d12ee54d101d572d98b95c4c80909"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "d16ec3290a7d59e3a447b5ffc7dad44363492debc6e805a990f2aab5c3cf5d64": {
+      "siacoininputs": {
+        "0240e585a3c35585b7e63e6e7b878bd6c3a1d5448cb70e1c5b766b016db18cb2": {
+          "parentid": "0240e585a3c35585b7e63e6e7b878bd6c3a1d5448cb70e1c5b766b016db18cb2",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "0722d186bdf3b2a3df50bdd8ee85bebbc06092dacf9f68b7c52b13c1838d0166": {
+          "parentid": "0722d186bdf3b2a3df50bdd8ee85bebbc06092dacf9f68b7c52b13c1838d0166",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "0976f68def1f93b1aad44e29a868b6126a80d2b7c7be9b6db173f7ee364215af": {
+          "parentid": "0976f68def1f93b1aad44e29a868b6126a80d2b7c7be9b6db173f7ee364215af",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "0a8010c854436b276a663721b25b4c946d99306a0ae8b7fb1150fa51e79a443b": {
+          "parentid": "0a8010c854436b276a663721b25b4c946d99306a0ae8b7fb1150fa51e79a443b",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "25fb2f102988a03bcc225548f8968e1dcfb8cc930fa8d505fe2441660f705dea": {
+          "parentid": "25fb2f102988a03bcc225548f8968e1dcfb8cc930fa8d505fe2441660f705dea",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "2959eee3ae13018aa289947111db9cdc36816d9da3d7dee80e06270238c29d54": {
+          "parentid": "2959eee3ae13018aa289947111db9cdc36816d9da3d7dee80e06270238c29d54",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "2b14ea294e53f7c73ed5e2f810ad288f2de34b8d92d56d31d2e9ea18bdd9692f": {
+          "parentid": "2b14ea294e53f7c73ed5e2f810ad288f2de34b8d92d56d31d2e9ea18bdd9692f",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "2bca950f0d715b1a9ce00f8e3c8d91590efb833f35686bd2fe54137e29abeef6": {
+          "parentid": "2bca950f0d715b1a9ce00f8e3c8d91590efb833f35686bd2fe54137e29abeef6",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "2e9d40f1bcf26cca7af2963aea72d105a18deb099bc1e720f82c774035e6475a": {
+          "parentid": "2e9d40f1bcf26cca7af2963aea72d105a18deb099bc1e720f82c774035e6475a",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "34e6f1edf31b9f8203af105cbd0f8da97ff8476bd7d5904072bbe91114edaf03": {
+          "parentid": "34e6f1edf31b9f8203af105cbd0f8da97ff8476bd7d5904072bbe91114edaf03",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "36fc2e4704003ee498dcbe19aecef15d09d60b5f83eade597bc863045870d23d": {
+          "parentid": "36fc2e4704003ee498dcbe19aecef15d09d60b5f83eade597bc863045870d23d",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "3743e645a7d4f3f42470b3c6309f1e2d88da34adcd8629d972afc670084d0853": {
+          "parentid": "3743e645a7d4f3f42470b3c6309f1e2d88da34adcd8629d972afc670084d0853",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "49824fec4e1dbefab75fb7fbef982e5885fccdf967485d3225e3c7e0cfb9273e": {
+          "parentid": "49824fec4e1dbefab75fb7fbef982e5885fccdf967485d3225e3c7e0cfb9273e",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "4a1339223cc5dad7427381747610650028c08c80062373d7a69776656bd920db": {
+          "parentid": "4a1339223cc5dad7427381747610650028c08c80062373d7a69776656bd920db",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "4e97684eb2a2e1c3fdaf65e60879e9473993c83867625b9e3123a580b71c8fac": {
+          "parentid": "4e97684eb2a2e1c3fdaf65e60879e9473993c83867625b9e3123a580b71c8fac",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "6bc80269ac6cc2a75e6a27ec54cf610ec2a8a5be6e30b51345405f093c0aae31": {
+          "parentid": "6bc80269ac6cc2a75e6a27ec54cf610ec2a8a5be6e30b51345405f093c0aae31",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "77ab521971190a5cac81bdbdedb96c93ec16283633e42fed55f65b66370cc03c": {
+          "parentid": "77ab521971190a5cac81bdbdedb96c93ec16283633e42fed55f65b66370cc03c",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "7bf81b069aefd0ac4aa343f4b4fb91dd7368c53537785cce9c8388a5dece3039": {
+          "parentid": "7bf81b069aefd0ac4aa343f4b4fb91dd7368c53537785cce9c8388a5dece3039",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "7c8291bca4787908ef1f1ffc740edcf94533b731a720c70baa30d12cb35bf9fa": {
+          "parentid": "7c8291bca4787908ef1f1ffc740edcf94533b731a720c70baa30d12cb35bf9fa",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "84cf3809e7826d299828cbad6be0f2316b4ebdde07b2628d98c6de819005f6e0": {
+          "parentid": "84cf3809e7826d299828cbad6be0f2316b4ebdde07b2628d98c6de819005f6e0",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "90a706971023d0720dcf255b4751ff87daa0eec3f7b66043be8567d3796b166f": {
+          "parentid": "90a706971023d0720dcf255b4751ff87daa0eec3f7b66043be8567d3796b166f",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "9db08a8d5c2abd66056e83b18a704c19f5d44bdf57034154ef0616940df5e8b2": {
+          "parentid": "9db08a8d5c2abd66056e83b18a704c19f5d44bdf57034154ef0616940df5e8b2",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "9f9a13d5cdb2d91d2f5314b14f79c1a34a45282c385e92a6b847d8caaff0c7ad": {
+          "parentid": "9f9a13d5cdb2d91d2f5314b14f79c1a34a45282c385e92a6b847d8caaff0c7ad",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "ad7d53ce809c65d50417c06d54acd525ce8d98f0beea8145920428bcb736a5f5": {
+          "parentid": "ad7d53ce809c65d50417c06d54acd525ce8d98f0beea8145920428bcb736a5f5",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "b46c2aaeae3a6f3699a37e84790b93321175748a46963ffb39f7a5f4eac39a6b": {
+          "parentid": "b46c2aaeae3a6f3699a37e84790b93321175748a46963ffb39f7a5f4eac39a6b",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "b6e047d1c32d652698723d1af993730dd13e01f87fd9ac94c1519e7660dd68ca": {
+          "parentid": "b6e047d1c32d652698723d1af993730dd13e01f87fd9ac94c1519e7660dd68ca",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "bddc63d1b743d7612c3f9f0c5017dad449e9ba6b5314c71dd120950d4ccd1bd1": {
+          "parentid": "bddc63d1b743d7612c3f9f0c5017dad449e9ba6b5314c71dd120950d4ccd1bd1",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "bf68443c3b212d6a915325bf77fd30757d58e5f6b3b078d9c6671329a037bf85": {
+          "parentid": "bf68443c3b212d6a915325bf77fd30757d58e5f6b3b078d9c6671329a037bf85",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "c8f4fb894ffee5c06c96c413311ca5efab00507f4c2d02bafade42ba4344fd73": {
+          "parentid": "c8f4fb894ffee5c06c96c413311ca5efab00507f4c2d02bafade42ba4344fd73",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "cb4c4426b5e86103eafe3f1f00cb6c56f1f3b4b10ae48a2ac1e23f5b8989a8c7": {
+          "parentid": "cb4c4426b5e86103eafe3f1f00cb6c56f1f3b4b10ae48a2ac1e23f5b8989a8c7",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "cbb11ea34d944f89c31bdb5f0161da75e587fbb00de4ee5d40181bcc909e5e61": {
+          "parentid": "cbb11ea34d944f89c31bdb5f0161da75e587fbb00de4ee5d40181bcc909e5e61",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "d1054bf762602befff55fc86e315f255b399c5af081c0b3aeb489eea2c3c7436": {
+          "parentid": "d1054bf762602befff55fc86e315f255b399c5af081c0b3aeb489eea2c3c7436",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "d3cf123a80945885ef894a34426ade51467428f81f4107c582bc3e868b5e50c4": {
+          "parentid": "d3cf123a80945885ef894a34426ade51467428f81f4107c582bc3e868b5e50c4",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "fa062f14903582be3e9e3f7156db11bb5af68e0aced9d8c2833aae8a0ead7168": {
+          "parentid": "fa062f14903582be3e9e3f7156db11bb5af68e0aced9d8c2833aae8a0ead7168",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "fac5cfb48b519b238faa8d1fe3f76a06ad99f56f82fa3e00a3d25d7eb92872c9": {
+          "parentid": "fac5cfb48b519b238faa8d1fe3f76a06ad99f56f82fa3e00a3d25d7eb92872c9",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "EQIMKQCOswv8XbDGdgkh5qWQt3UwYGzD2utgRdkkD8U="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "f2d23d7e7487217029085682c597ef0c5a556848466fcf47ec2359fbc1b0ad0e": {
+          "value": "35644741108329337447777000000",
+          "unlockhash": "e989c53e028aef4f19deea215fd4ef61f896571ea9cb616b622662060699effc32775330a439"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "d6e45063026ad9f158f27f86eea4f2aad4efac384788ed3b68615b4541c80579": {
+      "siacoininputs": {
+        "173f783e6520fc8cdf84c95bc954d3f16d16a9ed314590486a20387ee5d87122": {
+          "parentid": "173f783e6520fc8cdf84c95bc954d3f16d16a9ed314590486a20387ee5d87122",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "muTPK5blKsHzNVe1ssLlXSxaL9KNpdFCRBKvtM7Tqjg="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "382409096296eb2770e183521c498805c20095c3cec2fb3acb206a61fbe5c918": {
+          "value": "426002269938650000000000000000",
+          "unlockhash": "16e5301c9da9746fdadf297ffb00f3ad9347055f4ba8aee5cfcfd73ed794eaf579963844cb9f"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "d86fee0347b844aa8f10aa07ebf09a3628ec63d89848269e92721883500750be": {
+      "siacoininputs": [],
+      "siacoinoutputs": [],
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": ["Tm9uU2lhMinedBy+3e49dda788b5997564984cd8828d73ce1562e7a69144ed729fc257aa123395a919de193b1f99QWcmBlhitXQfSVw6DoOkrbhsZ86MsQSq7ooFbx0kg2sBAgMEM3kBAA=="],
+      "transactionsignatures": null
+    },
+    "dab37319403a542e32a4a3224edd4a8c2677d1dbbf30fe8e4583e403691a5840": {
+      "siacoininputs": {
+        "012752eef3e2956b992fa23913e1a09b878990162f5cf477a22349715614e0d8": {
+          "parentid": "012752eef3e2956b992fa23913e1a09b878990162f5cf477a22349715614e0d8",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "0v\/7b\/3LY87ygvWnXaGhwm6fhXZEBRfm+yIW2Wo6pLY="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "3dd68b9980d8ba24813ba3798f3c84c3f8afaa48d645290b89490a413b2127f1": {
+          "value": "1992756545723225877951294078",
+          "unlockhash": "d67e2f733796df64f2dd0cf8dc81b160e9b4af50984cf51664715f2bcddb3845d19047c16b53"
+        },
+        "946e6fcf30a8fa1b4b2d09c7f3fda5678543ebc5543010d2315d1ad26f35fced": {
+          "value": "40230000000000000000000",
+          "unlockhash": "e26207173db9daa25fea029b91e45fbfc658d60b539f388b8b83df5b25484c5e73ab5ee2edb5"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "e58b23a7fd09de15b353e4110d43bc55414859341149ce2df25da8b2dc2a0d6f": {
+      "siacoininputs": {
+        "11cfd2121a9e64ef63c1bc9b66ec1a2bb4f4e1dd5cee6f07ba60d75605c93474": {
+          "parentid": "11cfd2121a9e64ef63c1bc9b66ec1a2bb4f4e1dd5cee6f07ba60d75605c93474",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "ecrA0NeLL0uOu5Y7H6ocuMy2h+LfleHgxYXUMOl78eI="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "2710c036cfe783ed913fbe5a07a6738767538816841dde3d90e2f5e6357dede0": {
+          "parentid": "2710c036cfe783ed913fbe5a07a6738767538816841dde3d90e2f5e6357dede0",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "ecrA0NeLL0uOu5Y7H6ocuMy2h+LfleHgxYXUMOl78eI="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "28202c51591b8a5a8ce7a986b3fe32f1cbdf02c2abeb6d88b89d17ed55cd37a8": {
+          "parentid": "28202c51591b8a5a8ce7a986b3fe32f1cbdf02c2abeb6d88b89d17ed55cd37a8",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "ecrA0NeLL0uOu5Y7H6ocuMy2h+LfleHgxYXUMOl78eI="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "5f35d1fab03ddbec2839c76c2f32b1a460968db50a684f5b0248e1b76bf23abb": {
+          "parentid": "5f35d1fab03ddbec2839c76c2f32b1a460968db50a684f5b0248e1b76bf23abb",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "ecrA0NeLL0uOu5Y7H6ocuMy2h+LfleHgxYXUMOl78eI="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "6263ac2bac3ed837b94c6c80d4f280a6cace37b9a8dd01f166b70029cc5ee1bb": {
+          "parentid": "6263ac2bac3ed837b94c6c80d4f280a6cace37b9a8dd01f166b70029cc5ee1bb",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "ecrA0NeLL0uOu5Y7H6ocuMy2h+LfleHgxYXUMOl78eI="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "6891cb8f95e46f43633372df8b5e7b4eb3a1d33cdc4f5e7871b3a195767acacf": {
+          "parentid": "6891cb8f95e46f43633372df8b5e7b4eb3a1d33cdc4f5e7871b3a195767acacf",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "ecrA0NeLL0uOu5Y7H6ocuMy2h+LfleHgxYXUMOl78eI="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "c86246e5ed45e3b343add085a82002875e2d196f7ddebf8aa30d96b08d2652f8": {
+          "parentid": "c86246e5ed45e3b343add085a82002875e2d196f7ddebf8aa30d96b08d2652f8",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "ecrA0NeLL0uOu5Y7H6ocuMy2h+LfleHgxYXUMOl78eI="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "e275741d5c7e722e565579ac280cf53bd0addfcdc9c61a0a4109ed58fe8badb1": {
+          "parentid": "e275741d5c7e722e565579ac280cf53bd0addfcdc9c61a0a4109ed58fe8badb1",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "ecrA0NeLL0uOu5Y7H6ocuMy2h+LfleHgxYXUMOl78eI="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "f430652f8911256fd6fe38a0622041ceb2e59b2978a1ca35d5fe1fb507aa264b": {
+          "parentid": "f430652f8911256fd6fe38a0622041ceb2e59b2978a1ca35d5fe1fb507aa264b",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "ecrA0NeLL0uOu5Y7H6ocuMy2h+LfleHgxYXUMOl78eI="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "f90aab82ee9dd7c84090badca0ab314473f23d62511a5c388d278907bafbbbe5": {
+          "parentid": "f90aab82ee9dd7c84090badca0ab314473f23d62511a5c388d278907bafbbbe5",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "ecrA0NeLL0uOu5Y7H6ocuMy2h+LfleHgxYXUMOl78eI="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "2d0c6badbf28c611a2bbdf5c6835e76e2ac32b8592fc318f55f93ca539a4e930": {
+          "value": "102132328745932800680000000",
+          "unlockhash": "9b89b728ec77f3224e30ceb970ce376c2b9a8c1d5684c77c1ba26fc0f618991de81966c680e6"
+        },
+        "e39f33e294c4232a945066ea5a47cc7d45fd2a2b33d848d1bce0cf43e8fc1f9e": {
+          "value": "10000022500000000000000000000",
+          "unlockhash": "bb622fca9e71f8b88eafa6600edad202802f31bd38fa44aa68b75aa6ec947cd3b78affbbf073"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "e67dc0bded337216f353fd6211b067247ccdc8ff58b068d4c91d076336a6cba7": {
+      "siacoininputs": {
+        "4f0b57189d91044bc55d1a5f120a3c30983f56fa95614e04dbb132388f2016ea": {
+          "parentid": "4f0b57189d91044bc55d1a5f120a3c30983f56fa95614e04dbb132388f2016ea",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "rnWFDoIEy\/Z\/85BADZ24e56GXzVSlO\/qbsvYSNzsdB8="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "8097a26593dc9e92a24960f4322354930d83b0520ae6fb761654c2e7f3d10466": {
+          "value": "666666666666666666666666",
+          "unlockhash": "60a408011e5e3b0698efe7a5d0b2d544e93ecf84a16239f3233832c6ed8cb71118ac84e36de2"
+        },
+        "9ec1e5ff2154afae7ca60617ba7cc90103a789151098d2b7ddee975554455627": {
+          "value": "4100339376785010449912604918",
+          "unlockhash": "bfb41134deda7cf38be6292f33db4a6bf167b537ff9dc49a0751db64d3b6932e31880222395d"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "e824473251c2f5c52a7abbe70d2fde69960c8b28fd3131b248a95d5be1fc691a": {
+      "siacoininputs": {
+        "12a0e82d71cab29f7ed5a913cd12b943c145db9a01cbb760438b51cf55d1eb8a": {
+          "parentid": "12a0e82d71cab29f7ed5a913cd12b943c145db9a01cbb760438b51cf55d1eb8a",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "13399a3bef102ef31491b1d48770940c26675852b4abcdfba4cbe39ddf6eab10": {
+          "parentid": "13399a3bef102ef31491b1d48770940c26675852b4abcdfba4cbe39ddf6eab10",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "17830a48eede6822ad54ab8c06cceee5a0a9553d73e725d0c57fd3dd7139c45d": {
+          "parentid": "17830a48eede6822ad54ab8c06cceee5a0a9553d73e725d0c57fd3dd7139c45d",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "2089ccd4d7f900fb0469e2363d62d9d25c7cb3d0c10565f4f7eef8478fb62033": {
+          "parentid": "2089ccd4d7f900fb0469e2363d62d9d25c7cb3d0c10565f4f7eef8478fb62033",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "225d4805e4b48b49eeed84739571119d0500178882752d81dce5ba1d3c583f7b": {
+          "parentid": "225d4805e4b48b49eeed84739571119d0500178882752d81dce5ba1d3c583f7b",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "22d7a7ae182de88ae5c513706021e91554ce9f752adce0c249dd1e451fd12177": {
+          "parentid": "22d7a7ae182de88ae5c513706021e91554ce9f752adce0c249dd1e451fd12177",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "24b778d13f0d22f406e9223bbd475db837658f7e787592dd2f985fb2a10b2756": {
+          "parentid": "24b778d13f0d22f406e9223bbd475db837658f7e787592dd2f985fb2a10b2756",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "294495c6c8277e2224020fabbfb5528feac29d8057d848c72cd9a313a4c87638": {
+          "parentid": "294495c6c8277e2224020fabbfb5528feac29d8057d848c72cd9a313a4c87638",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "33012fde1268cccd1820fdf60241143674376a74d9dc4af4f5f6b7d867ceb98e": {
+          "parentid": "33012fde1268cccd1820fdf60241143674376a74d9dc4af4f5f6b7d867ceb98e",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "38133fe01176f51f1c581ffe8fea3b105e75cebac32bbd6d3a384c561a831be2": {
+          "parentid": "38133fe01176f51f1c581ffe8fea3b105e75cebac32bbd6d3a384c561a831be2",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "600681c3ba4d67ec96b4c16c6f6351271505e8d5f5bc25f6cd94bca7f2172fb1": {
+          "parentid": "600681c3ba4d67ec96b4c16c6f6351271505e8d5f5bc25f6cd94bca7f2172fb1",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "658d74b5f375c52913efc52b4fa391cadd56fc76dc48d0c3addd05137c3b4865": {
+          "parentid": "658d74b5f375c52913efc52b4fa391cadd56fc76dc48d0c3addd05137c3b4865",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "6dac2db17b83391dcfebfc8769603a3d9c0ccea2e31a38a039c428b9ee7b1c1c": {
+          "parentid": "6dac2db17b83391dcfebfc8769603a3d9c0ccea2e31a38a039c428b9ee7b1c1c",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "73f5e7edc445131606e0728d2b53997914c5ec03fd288dc715b07f4e89e27953": {
+          "parentid": "73f5e7edc445131606e0728d2b53997914c5ec03fd288dc715b07f4e89e27953",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "75b4a71af24f322067702225886e83f1ea1312ca34b4f14607544a162b3d6784": {
+          "parentid": "75b4a71af24f322067702225886e83f1ea1312ca34b4f14607544a162b3d6784",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "76b30c232103f76452c26027cf5def5d633626c22f4f6b6c69a88bd08583cb86": {
+          "parentid": "76b30c232103f76452c26027cf5def5d633626c22f4f6b6c69a88bd08583cb86",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "7dbdc1850773a46dfbb62f1b66dee6851a5456682a39c6bb75b44d193b0e6a8b": {
+          "parentid": "7dbdc1850773a46dfbb62f1b66dee6851a5456682a39c6bb75b44d193b0e6a8b",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "824ffbd8183c41b9e59ce3b33f10253e11c151a6554c49373fde659f6195f949": {
+          "parentid": "824ffbd8183c41b9e59ce3b33f10253e11c151a6554c49373fde659f6195f949",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "8bc4506e95cd9a7739785dea5716650a5c5dba30141bc68018d402ca0ca96f25": {
+          "parentid": "8bc4506e95cd9a7739785dea5716650a5c5dba30141bc68018d402ca0ca96f25",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "8fa0049b645c22892025275b0a51807b61c0fb8332ac2e6c47e99fd97254e149": {
+          "parentid": "8fa0049b645c22892025275b0a51807b61c0fb8332ac2e6c47e99fd97254e149",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "9224044db24d535b00ba1562d28393bdb99787b46482a7846f24549f803b82a5": {
+          "parentid": "9224044db24d535b00ba1562d28393bdb99787b46482a7846f24549f803b82a5",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "93208ad97fb70a930aeb566de3ff05f8818bb7fa3735021b51b2fe9d44f50d5f": {
+          "parentid": "93208ad97fb70a930aeb566de3ff05f8818bb7fa3735021b51b2fe9d44f50d5f",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "9cc4fdd1d5c539d1638466642a2144942d1b81b2e5c6a4069a505a53530403f6": {
+          "parentid": "9cc4fdd1d5c539d1638466642a2144942d1b81b2e5c6a4069a505a53530403f6",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "9e03e5972ef33be312fc835120a0fd16fdcf2bb5e0b1e302a21e53161badbcca": {
+          "parentid": "9e03e5972ef33be312fc835120a0fd16fdcf2bb5e0b1e302a21e53161badbcca",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "a7f225be368fc951b144697a4f700b1498fdefa134ca7f029559004e260cc0e2": {
+          "parentid": "a7f225be368fc951b144697a4f700b1498fdefa134ca7f029559004e260cc0e2",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "ad302c7da3224f8769f0aee833a98bd63fab68d2910d3686e5f83fbaf5dd780a": {
+          "parentid": "ad302c7da3224f8769f0aee833a98bd63fab68d2910d3686e5f83fbaf5dd780a",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "b31772c691edddf0733163b89909374bb65fd57b75b10fab7af96ff4433c70a0": {
+          "parentid": "b31772c691edddf0733163b89909374bb65fd57b75b10fab7af96ff4433c70a0",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "bec6c11180b7e048d1e361c799920954b9a7f46bb9e7ef35aa2d505d6890123c": {
+          "parentid": "bec6c11180b7e048d1e361c799920954b9a7f46bb9e7ef35aa2d505d6890123c",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "c63c7e00c845c80574e53c4822de151899593a8c30d13fa9d27af781269b3302": {
+          "parentid": "c63c7e00c845c80574e53c4822de151899593a8c30d13fa9d27af781269b3302",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "cdf88d95dc640f450fad3afa8b322b0fa8e07561c4ad55d23faeb9c9cd6c8768": {
+          "parentid": "cdf88d95dc640f450fad3afa8b322b0fa8e07561c4ad55d23faeb9c9cd6c8768",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "d0b45478c2721718fcd955bb957e40d8d0fe8341e661e1f4475a9e01bf410cc9": {
+          "parentid": "d0b45478c2721718fcd955bb957e40d8d0fe8341e661e1f4475a9e01bf410cc9",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "e0c7e99d58d38420cab5b2df4c9ce29916de93ee1572dc6e95d16ce226af6492": {
+          "parentid": "e0c7e99d58d38420cab5b2df4c9ce29916de93ee1572dc6e95d16ce226af6492",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "e33aa3485473e1ca1fabdcb21ac133119e5f3ebe189a95d597065ab31601aee1": {
+          "parentid": "e33aa3485473e1ca1fabdcb21ac133119e5f3ebe189a95d597065ab31601aee1",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "ea71c61358a3ee2c87cf94c563575d57b7b949d065ab2c8d436dbd099ab0168c": {
+          "parentid": "ea71c61358a3ee2c87cf94c563575d57b7b949d065ab2c8d436dbd099ab0168c",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        },
+        "ff1af06ec53d22b62fab7f049a8041a33399aa3eb792396540ddafbcba1beb59": {
+          "parentid": "ff1af06ec53d22b62fab7f049a8041a33399aa3eb792396540ddafbcba1beb59",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "XcOT2HjMaI\/HBDKhYVJu9yj\/ase+3J3\/r8JuDoZ4z8k="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "05f9de88ae1b35928a6a002d11dbdbd7d77f73943ae8b3ef5629ed1dca935441": {
+          "value": "34495705582682267356870000000",
+          "unlockhash": "31dbe6cdb934833ed50f1ba64c7685bd5ee4153e77589d32822c59a5c3f1544bc1b0f9bd940e"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "ea38333718482ecae60a7db384db8e5758f0dd34f011d9716644826b5871248b": {
+      "siacoininputs": {
+        "4dbc128c8987009bb81f7fba5997c5a8c80658c271253342a581966c3df0ac9c": {
+          "parentid": "4dbc128c8987009bb81f7fba5997c5a8c80658c271253342a581966c3df0ac9c",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "CgoHIjKXL8dQjw1tEYA0Xmuf3p0wbkQ7NVIplKB3ewo="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "2d5c3b02fe253ea83e89aa26138f041a9cef9717ad8c26d6a495faec0169c610": {
+          "value": "50000000000000000000000000",
+          "unlockhash": "c04f3a0f5e96aedab7789efad7b84a08b1d7420ce06793b1607debeae01b35a62286534386b1"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    },
+    "edfbe1f81dab5e64eba74ff4deeb9b5486e853321b141976f2addfa12a231cf9": {
+      "siacoininputs": {
+        "94738c199ad86fe22acdbe0b549e865f36e51d4aa06068450f4037adc9b9ca4c": {
+          "parentid": "94738c199ad86fe22acdbe0b549e865f36e51d4aa06068450f4037adc9b9ca4c",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "T1rztzxkIiF2PbdAqntS7BA2bzCU0EVBW6P7dzm28UY="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": [],
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": ["SG9zdEFubm91bmNlbWVudBIAAAAAAAAAMzcuNzkuMjUxLjE4MTo5OTgyZWQyNTUxOQAAAAAAAAAAACAAAAAAAAAAKxxBYeUj3hWPDN5tejBo5L3R+Qs\/Z3TuZuezm8MvbksW9N2Uc2bT9BU1ax3P61PNi2On3rehPecZI\/gdz1wIjE55sKZ4NO6I14J8UUi9wvim1FBviXg7iW4522O+tLUL"],
+      "transactionsignatures": null
+    },
+    "f137d7abf87402d7b9bb5015aef11ab3b0b1ae38dfb386acc47a0a51316c7387": {
+      "siacoininputs": [],
+      "siacoinoutputs": [],
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": ["Tm9uU2lhAAAAAAAAAAAAAA=="],
+      "transactionsignatures": null
+    },
+    "f3c29a8ef4c2f2eb6ee5b68e12438bdd1e339fbbbbafc2c8c23058396ee2c359": {
+      "siacoininputs": {
+        "09026635a87132c8ac40005a36df514e9e395fde518d5cb1b5b41fa3405b3bd2": {
+          "parentid": "09026635a87132c8ac40005a36df514e9e395fde518d5cb1b5b41fa3405b3bd2",
+          "unlockconditions": {
+            "timelock": 0,
+            "publickeys": [{
+              "algorithm": "ed25519",
+              "key": "uAF5U7WcvgAJK9Brxb8RTw1kIRUHAcUSZzXClaWcouw="
+            }],
+            "signaturesrequired": 1
+          }
+        }
+      },
+      "siacoinoutputs": {
+        "c993399a32e1662b82aae2245736198e8a3cb44e9475c826c43fbd6243c182e5": {
+          "value": "35964719030434792288024000000",
+          "unlockhash": "739122a3d671d950a7e947e95b6cfd0ae7f380a2b175ab83dcd44a4c45114d30281e69727548"
+        }
+      },
+      "filecontracts": [],
+      "filecontractrevisions": [],
+      "storageproofs": [],
+      "siafundinputs": [],
+      "siafundoutputs": [],
+      "minerfees": null,
+      "arbitrarydata": [],
+      "transactionsignatures": null
+    }
+  },
+  "hash_data": null
+}
